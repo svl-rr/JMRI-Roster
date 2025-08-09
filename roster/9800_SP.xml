@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Dec 13 23:19:19 PST 2024-->
+  <locomotive id="9800 SP" fileName="9800_SP.xml" roadNumber="9800" roadName="Southern Pacific" mfg="Athearn" owner="SVL" model="AC4400" dccAddress="9800" comment="" developerID="-1" manufacturerID="99" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2024-12-14T07:19:19.862+0000</dateUpdated>
+    <decoder model="LE130" family="Lenz 4th gen BEMF decoders" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="9800" longaddress="yes" />
+      <number>9800</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <values>
+      <decoderDef>
+        <varValue item="Start Volts" value="4" />
+        <varValue item="Accel" value="4" />
+        <varValue item="Decel" value="1" />
+        <varValue item="Vhigh" value="10" />
+        <varValue item="Version ID" value="51" />
+        <varValue item="Manufacturer ID" value="99" />
+        <varValue item="EMF frequency" value="4" />
+        <varValue item="Consist Address" value="0" />
+        <varValue item="Speed Steps" value="1" />
+        <varValue item="Motor short-circuit" value="0" />
+        <varValue item="Front light short-circuit" value="0" />
+        <varValue item="Rear light short-circuit" value="0" />
+        <varValue item="Back EMF control" value="1" />
+        <varValue item="Decoder error notifications in CV30" value="1" />
+        <varValue item="Brake Momentum on DC" value="0" />
+        <varValue item="                                                     Speed Table (CV67-81) (1-63)" value="1,5,9,14,18,23,27,32,36,40,45,49,54,58,63" />
+        <varValue item="FL(f) controls output 1" value="1" />
+        <varValue item="FL(r) controls output 2" value="1" />
+        <varValue item="F1 controls output 3" value="1" />
+        <varValue item="F2 controls output 4" value="1" />
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Extended Address" value="9800" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Power Source Conversion" value="0" />
+        <varValue item="Use Speed Table" value="0" />
+      </decoderDef>
+      <CVvalue name="2" value="4" />
+      <CVvalue name="3" value="4" />
+      <CVvalue name="4" value="1" />
+      <CVvalue name="5" value="10" />
+      <CVvalue name="7" value="51" />
+      <CVvalue name="8" value="99" />
+      <CVvalue name="9" value="4" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="29" value="34" />
+      <CVvalue name="30" value="0" />
+      <CVvalue name="60" value="3" />
+      <CVvalue name="67" value="1" />
+      <CVvalue name="68" value="5" />
+      <CVvalue name="69" value="9" />
+      <CVvalue name="70" value="14" />
+      <CVvalue name="71" value="18" />
+      <CVvalue name="72" value="23" />
+      <CVvalue name="73" value="27" />
+      <CVvalue name="74" value="32" />
+      <CVvalue name="75" value="36" />
+      <CVvalue name="76" value="40" />
+      <CVvalue name="77" value="45" />
+      <CVvalue name="78" value="49" />
+      <CVvalue name="79" value="54" />
+      <CVvalue name="80" value="58" />
+      <CVvalue name="81" value="63" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="230" />
+      <CVvalue name="18" value="72" />
+    </values>
+  </locomotive>
+</locomotive-config>

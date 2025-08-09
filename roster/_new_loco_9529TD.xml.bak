@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.22+R4c4384d74 on Wed Dec 21 13:32:43 PST 2022-->
+  <locomotive id="9529TD" fileName="_new_loco_9529TD.xml" roadNumber="9529." roadName="B&amp;O" mfg="" owner="SVL" model="SW" dccAddress="9529" comment="with matching Calf unit" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2022-12-21T21:32:43.823+0000</dateUpdated>
+    <decoder model="Rolling Thunder Receiver" family="Paragon 3" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="9529" longaddress="yes" />
+      <number>9529</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <values>
+      <decoderDef>
+        <varValue item="Packet Time-out Value" value="6" />
+        <varValue item="Receivers Volume Rate of Change" value="16" />
+        <varValue item="Receivers Maximum Volume" value="95" />
+        <varValue item="Receivers Minimum Volume" value="88" />
+        <varValue item="RSS Digital Filter Coefficient" value="16" />
+        <varValue item="Signal Strength Volume Increase" value="80" />
+        <varValue item="Signal Strength Volume Decrease" value="100" />
+        <varValue item="Signal Search Dwell Time" value="128" />
+        <varValue item="Lock Signal Strength" value="128" />
+        <varValue item="Start Scan Channel" value="29" />
+        <varValue item="End Scan Channel" value="29" />
+        <varValue item="Frequency" value="1" />
+        <varValue item="Sensitivity." value="0" />
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Extended Address" value="9529" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Manufacturer Version No: " value="26" />
+        <varValue item="Manufacturer ID: " value="38" />
+      </decoderDef>
+      <CVvalue name="11" value="6" />
+      <CVvalue name="130" value="16" />
+      <CVvalue name="131" value="95" />
+      <CVvalue name="132" value="88" />
+      <CVvalue name="133" value="16" />
+      <CVvalue name="135" value="80" />
+      <CVvalue name="136" value="100" />
+      <CVvalue name="140" value="128" />
+      <CVvalue name="141" value="128" />
+      <CVvalue name="142" value="29" />
+      <CVvalue name="143" value="29" />
+      <CVvalue name="213" value="128" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="229" />
+      <CVvalue name="18" value="57" />
+      <CVvalue name="29" value="32" />
+      <CVvalue name="7" value="26" />
+      <CVvalue name="8" value="38" />
+    </values>
+  </locomotive>
+</locomotive-config>

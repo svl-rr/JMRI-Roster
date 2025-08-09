@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.22+R4c4384d74 on Sat Jun 10 09:15:42 PDT 2023-->
+  <locomotive id="3110 ACEX" fileName="3110_ACEX.xml" roadNumber="" roadName="" mfg="" owner="SVL" model="" dccAddress="3110" comment="" developerID="-1" manufacturerID="153" productID="200" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2023-06-10T16:15:42.550+0000</dateUpdated>
+    <decoder model="WOWDiesel V5 121" family="TCS WOWDiesel V5" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="3110" longaddress="yes" />
+      <number>3110</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <values>
+      <decoderDef>
+        <varValue item="Select Horn: " value="30" />
+        <varValue item="Select Bell: " value="0" />
+        <varValue item="Select Prime Mover: " value="5" />
+        <varValue item="Rotate Whistle" value="60" />
+        <varValue item="Sanding Valve" value="100" />
+        <varValue item="Prime Mover Ignition" value="100" />
+        <varValue item="Reverse Sound" value="100" />
+        <varValue item="Mute" value="40" />
+        <varValue item="Prime Mover" value="100" />
+        <varValue item="Manual Notch Up" value="10" />
+        <varValue item="Momentum" value="50" />
+        <varValue item="Stop Sound" value="100" />
+        <varValue item="Windshield Wipers" value="15" />
+        <varValue item="Switch mode acceleration" value="5" />
+        <varValue item="Accel 3 Rate" value="0" />
+        <varValue item="Accel 3 Starting Point" value="0" />
+        <varValue item="Accel 2 Rate" value="0" />
+        <varValue item="Main line mode deceleration" value="60" />
+        <varValue item="Main line mode acceleration" value="20" />
+        <varValue item="Switch mode deceleration" value="5" />
+        <varValue item="Random Sound Overall Timer" value="3" />
+        <varValue item="Throttle Mode" value="0" />
+        <varValue item="Consist Deceleration Adjustment" value="0" />
+        <varValue item="Consist Address Active For F1" value="1" />
+        <varValue item="Consist Address Active For F2" value="1" />
+        <varValue item="Consist Address Active For F3" value="1" />
+        <varValue item="Consist Address Active For F4" value="1" />
+        <varValue item="Consist Address Active For F5" value="1" />
+        <varValue item="Consist Address Active For F6" value="1" />
+        <varValue item="Consist Address Active For F7" value="1" />
+        <varValue item="Consist Address Active For F8" value="1" />
+        <varValue item="Consist Address Active For FL in Forward" value="1" />
+        <varValue item="Consist Address Active For FL in Reverse" value="1" />
+        <varValue item="Consist Address Active For F9" value="1" />
+        <varValue item="Consist Address Active For F10" value="1" />
+        <varValue item="Consist Address Active For F11" value="1" />
+        <varValue item="Consist Address Active For F12" value="1" />
+        <varValue item="Consist Acceleration Adjustment" value="0" />
+        <varValue item="Reverse Trim" value="128" />
+        <varValue item="RailCom Enable Unsolicited Decoder Initiated Transmission" value="1" />
+        <varValue item="RailCom Enable Initiated Broadcast Transmission using Asymmetrical DCC Signal" value="1" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Step Mode" value="1" />
+        <varValue item="Analog (DC) Operation" value="0" />
+        <varValue item="RailCom Enable" value="0" />
+        <varValue item="Speed Table Definition" value="0" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Decel 1 Rate" value="60" />
+        <varValue item="Manufacturer" value="153" />
+        <varValue item="Ditch Light Blink Mapping" value="2" />
+        <varValue item="Crew Alert Light Function" value="13" />
+        <varValue item="Dim Mapping" value="4" />
+        <varValue item="Master Volume" value="70" />
+        <varValue item="Accel 2 Starting Point" value="0" />
+        <varValue item="F9 Effect" value="0" />
+        <varValue item="F9 Directionality" value="0" />
+        <varValue item="              F8 Effect" value="0" />
+        <varValue item="              F8 Directionality" value="0" />
+        <varValue item="F5 (Pink/Purple) Effect" value="0" />
+        <varValue item="F5 (Pink/Purple) Directionality" value="0" />
+        <varValue item="              F4 (Pink) Effect" value="0" />
+        <varValue item="              F4 (Pink) Directionality" value="0" />
+        <varValue item="F7 Effect" value="0" />
+        <varValue item="F7 Directionality" value="0" />
+        <varValue item="              F6 (Brown/Green) Effect" value="0" />
+        <varValue item="              F6 (Brown/Green) Directionality" value="0" />
+        <varValue item="F1 (Green) Effect" value="0" />
+        <varValue item="F1 (Green) Directionality" value="0" />
+        <varValue item="              F0R (Yellow) Directionality" value="0" />
+        <varValue item="              F0R (Yellow) Effect" value="0" />
+        <varValue item="F3 (Brown) Effect" value="0" />
+        <varValue item="F3 (Brown) Directionality" value="0" />
+        <varValue item="              F2 (Purple) Effect" value="0" />
+        <varValue item="              F2 (Purple) Directionality" value="0" />
+        <varValue item="Crew Alert" value="15" />
+        <varValue item="Brake Squeal" value="13" />
+        <varValue item="Random Sound 1 Enable" value="1" />
+        <varValue item="Random Sound 2 Enable" value="1" />
+        <varValue item="Random Sound 3 Enable" value="0" />
+        <varValue item="Random Sound 4 Enable" value="0" />
+        <varValue item=" Coupler Clank" value="15" />
+        <varValue item="Air Compressor" value="25" />
+        <varValue item="Bell" value="16" />
+        <varValue item="Air Spitter" value="15" />
+        <varValue item="Dynamic Speed Step Decrease" value="5" />
+        <varValue item="Dynamic Decel Rate" value="50" />
+        <varValue item="Motor Delay" value="4" />
+        <varValue item="Automatic Audio Shutoff Timer" value="10" />
+        <varValue item="Sound Delay" value="3" />
+        <varValue item="Auto Mars Maximum Speed" value="0" />
+        <varValue item="Auto Mars Minimum Speed" value="36" />
+        <varValue item="Automatic Bell Enable DC" value="1" />
+        <varValue item="Forward Horn Enable DC" value="1" />
+        <varValue item="Reverse Horn Enable DC" value="1" />
+        <varValue item="Stop Horn Enable DC" value="1" />
+        <varValue item="DC Mode Quill Enable DC" value="1" />
+        <varValue item="Month of Decoder Manufacture" value="7" />
+        <varValue item="Exhaust Fan" value="10" />
+        <varValue item="Day of Decoder Manufacture" value="21" />
+        <varValue item="Brake Release" value="10" />
+        <varValue item="Horn Long" value="100" />
+        <varValue item="Accel 1 Rate" value="20" />
+        <varValue item="Decoder Version" value="5" />
+        <varValue item="BEMF Routine Frequency (lower is faster)" value="35" />
+        <varValue item="Dual Enabled F24" value="0" />
+        <varValue item="Dual Enabled F25" value="0" />
+        <varValue item="Dual Enabled F26" value="0" />
+        <varValue item="Dual Enabled F27" value="1" />
+        <varValue item="Dual Enabled F28" value="0" />
+        <varValue item="Dual Enabled F16" value="0" />
+        <varValue item="Dual Enabled F17" value="0" />
+        <varValue item="Dual Enabled F18" value="0" />
+        <varValue item="Dual Enabled F19" value="0" />
+        <varValue item="Dual Enabled F20" value="0" />
+        <varValue item="Dual Enabled F21" value="0" />
+        <varValue item="Dual Enabled F22" value="0" />
+        <varValue item="Dual Enabled F23" value="0" />
+        <varValue item="Drive Speed Lock Mapping" value="255" />
+        <varValue item="Audio-Assist Mapping" value="8" />
+        <varValue item="User Id #2" value="0" />
+        <varValue item="User Id #1" value="0" />
+        <varValue item="F5 (Pink/Purple Wire) Mapping: " value="5" />
+        <varValue item="F4 (Pink Wire) Mapping: " value="4" />
+        <varValue item="F0F (Wire Wire) Mapping: " value="0" />
+        <varValue item="F3 (Brown Wire) Mapping: " value="3" />
+        <varValue item="F2 (Purple Wire) Mapping: " value="2" />
+        <varValue item="F1 (Green Wire) Mapping: " value="1" />
+        <varValue item="F0R (Yellow Wire) Mapping: " value="0" />
+        <varValue item="Year of Decoder Manufacture" value="17" />
+        <varValue item="              F10 Effect" value="0" />
+        <varValue item="              F10 Directionality" value="0" />
+        <varValue item="BEMF" value="1" />
+        <varValue item="Legacy Braking" value="0" />
+        <varValue item="Rule 17 - Dim in opposite direction" value="0" />
+        <varValue item="Rule 17 - Dim when stopped" value="0" />
+        <varValue item="Ditch Light Holdover Reset" value="14" />
+        <varValue item="Forward Trim" value="128" />
+        <varValue item="Crew Alert Enable" value="0" />
+        <varValue item="Automatic Bell Enable" value="0" />
+        <varValue item="Forward Sound Enable" value="0" />
+        <varValue item="Reverse Sound Enable" value="0" />
+        <varValue item="Stop Sound Enable" value="0" />
+        <varValue item="Direction Change Sound Enable (Steam Only)" value="0" />
+        <varValue item="Dual Prime Movers" value="0" />
+        <varValue item="Increase in Dynamic Brake power increases throttle notch" value="1" />
+        <varValue item="Reverse Directional Horns" value="0" />
+        <varValue item="Automatic Notching Mechanism Selection" value="0" />
+        <varValue item="Notching Mechanism Selection" value="1" />
+        <varValue item="Enable Function Pagination" value="0" />
+        <varValue item="DC Mode Power Pack Selection" value="0" />
+        <varValue item="Manual notching feedback/relay sound" value="1" />
+        <varValue item="Auto notch down prime mover when brakes are on" value="1" />
+        <varValue item="Mute on Start up" value="0" />
+        <varValue item="Switch/Mainline Mode Audio Feedback" value="1" />
+        <varValue item="Rotate Horn/Bell Audio Feedback" value="1" />
+        <varValue item="Light Mode/Sound Mode Audio Feedback" value="1" />
+        <varValue item="Audio Auto Shut-off Timer" value="1" />
+        <varValue item="2x Function Packets Required (Audio Assist Digitrax)" value="1" />
+        <varValue item="Smoke Unit Off Time" value="0" />
+        <varValue item="Smoke Unit On Time" value="0" />
+        <varValue item="Auxiliary Input Duration of Output" value="42" />
+        <varValue item="Notch 8 Speed Step" value="48" />
+        <varValue item="Notch 7 Speed Step" value="41" />
+        <varValue item="Notch 6 Speed Step" value="34" />
+        <varValue item="Dynamic Brake" value="45" />
+        <varValue item="Decoder ID" value="200" />
+        <varValue item="Brake Rate 1" value="32" />
+        <varValue item="Vstart" value="0" />
+        <varValue item="Brake Rate 4" value="8" />
+        <varValue item="Brake Rate 5" value="3" />
+        <varValue item="Brake Rate 2" value="26" />
+        <varValue item="Vmid" value="0" />
+        <varValue item="Dynamic Lowest Speed Step" value="10" />
+        <varValue item="Direction Change" value="15" />
+        <varValue item="Brake Rate 3" value="16" />
+        <varValue item="Notch 4 Speed Step" value="20" />
+        <varValue item="Notch 5 Speed Step" value="27" />
+        <varValue item="Notch 1 Speed Step" value="1" />
+        <varValue item="Notch 2 Speed Step" value="6" />
+        <varValue item="Notch 3 Speed Step" value="13" />
+        <varValue item="Proto Notch Speed Delta Ratio" value="20" />
+        <varValue item="Proto Notch Load Sensitivity Ratio" value="50" />
+        <varValue item="Proto Notch Hysteresis" value="80" />
+        <varValue item="Packet Time-Out Value" value="0" />
+        <varValue item="Analog Mode Function Status - FL(f)" value="1" />
+        <varValue item="Analog Mode Function Status - F1" value="1" />
+        <varValue item="Analog Mode Function Status - F2" value="1" />
+        <varValue item="Analog Mode Function Status - F3" value="1" />
+        <varValue item="Analog Mode Function Status - F4" value="1" />
+        <varValue item="Analog Mode Function Status - F5" value="1" />
+        <varValue item="Analog Mode Function Status - F6" value="1" />
+        <varValue item="Decoder Lock control number" value="2" />
+        <varValue item="Long Address" value="3110" />
+        <varValue item="Decoder Lock ID number" value="2" />
+        <varValue item="Consist Address" value="0" />
+        <varValue item="Consist Direction" value="0" />
+        <varValue item="Auto Notching Low Load Calibration" value="10" />
+        <varValue item="Auto Notching High Load Calibration" value="85" />
+        <varValue item="Dual Prime Mover Delay" value="5" />
+        <varValue item="Proto Notch Speed to Notch Ratio" value="0" />
+        <varValue item="Dual Enabled F0" value="1" />
+        <varValue item="Dual Enabled F1" value="0" />
+        <varValue item="Dual Enabled F2" value="0" />
+        <varValue item="Dual Enabled F3" value="0" />
+        <varValue item="Dual Enabled F4" value="0" />
+        <varValue item="Dual Enabled F5" value="0" />
+        <varValue item="Dual Enabled F6" value="0" />
+        <varValue item="Dual Enabled F7" value="0" />
+        <varValue item="Dual Enabled F8" value="1" />
+        <varValue item="Dual Enabled F9" value="0" />
+        <varValue item="Dual Enabled F10" value="0" />
+        <varValue item="Dual Enabled F11" value="0" />
+        <varValue item="Dual Enabled F12" value="0" />
+        <varValue item="Dual Enabled F13" value="0" />
+        <varValue item="Dual Enabled F14" value="0" />
+        <varValue item="Dual Enabled F15" value="0" />
+        <varValue item="Horn Quill" value="100" />
+        <varValue item="F0F (White) Directionality" value="0" />
+        <varValue item="F0F (White) Effect" value="0" />
+        <varValue item="F10 Output Mapping: " value="10" />
+        <varValue item="F8 Output Mapping: " value="8" />
+        <varValue item="F9 Output Mapping: " value="9" />
+        <varValue item="F6 (Green/Brown Wire) Mapping: " value="6" />
+        <varValue item="F7 Output Mapping: " value="7" />
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Vhigh" value="0" />
+        <varValue item="Decel 2 Ending Point" value="0" />
+        <varValue item="Decel 2 Rate" value="0" />
+        <varValue item="Random Sound Frequency 4" value="16" />
+        <varValue item="Random Sound Cutout Speed" value="15" />
+        <varValue item="Random Sound Frequency 2" value="200" />
+        <varValue item="Random Sound Frequency 3" value="64" />
+        <varValue item="Play Short Quill" value="1" />
+        <varValue item="Play Medium Quill" value="1" />
+        <varValue item="Play Long Quill" value="1" />
+        <varValue item="Play Quills in Random Order" value="0" />
+        <varValue item="Random Sound Frequency 1" value="200" />
+        <varValue item="Manual Notch Down" value="10" />
+        <varValue item="Horn Short" value="100" />
+        <varValue item="Decel 3 Ending Point" value="0" />
+        <varValue item="Decel 3 Rate" value="0" />
+        <varValue item="Forward Sound" value="100" />
+        <varValue item="DC Mode Regulated Supply Automatic Bell Cutout Voltage" value="77" />
+        <varValue item="DC Mode Regulated Supply Quill Voltage Delta" value="5" />
+        <varValue item="DC Mode Regulated Supply Motor Start Voltage" value="75" />
+        <varValue item="DC Mode Regulated Supply Motor Hysteresis" value="10" />
+        <varValue item="DC Mode Regulated Supply Maximum Track Voltage" value="116" />
+        <varValue item="DC Mode Unregulated Supply Automatic Bell Cutout Voltage" value="110" />
+        <varValue item="DC Mode Unregulated Supply Quill Voltage Delta" value="10" />
+        <varValue item="DC Mode Unregulated Supply Motor Start Voltage" value="100" />
+        <varValue item="DC Mode Unregulated Supply Motor Hysteresis" value="29" />
+        <varValue item="DC Mode Unregulated Supply Maximum Track Voltage" value="180" />
+        <varValue item="Speed Step 1" value="4" />
+        <varValue item="Speed Step 2" value="20" />
+        <varValue item="Speed Step 3" value="35" />
+        <varValue item="Speed Step 4" value="47" />
+        <varValue item="Speed Step 5" value="68" />
+        <varValue item="Speed Step 6" value="90" />
+        <varValue item="Speed Step 7" value="110" />
+        <varValue item="Speed Step 8" value="146" />
+        <varValue item="Speed Step 9" value="173" />
+        <varValue item="Speed Step 10" value="200" />
+        <varValue item="Speed Step 11" value="232" />
+        <varValue item="Speed Step 12" value="284" />
+        <varValue item="Speed Step 13" value="334" />
+        <varValue item="Speed Step 14" value="360" />
+        <varValue item="Speed Step 15" value="388" />
+        <varValue item="Speed Step 16" value="386" />
+        <varValue item="Speed Step 17" value="430" />
+        <varValue item="Speed Step 18" value="470" />
+        <varValue item="Speed Step 19" value="518" />
+        <varValue item="Speed Step 20" value="540" />
+        <varValue item="Speed Step 21" value="540" />
+        <varValue item="Speed Step 22" value="540" />
+        <varValue item="Speed Step 23" value="620" />
+        <varValue item="Speed Step 24" value="620" />
+        <varValue item="Speed Step 25" value="668" />
+        <varValue item="Speed Step 26" value="692" />
+        <varValue item="Speed Step 27" value="735" />
+        <varValue item="Speed Step 28" value="735" />
+        <varValue item="Speed Step 29" value="759" />
+        <varValue item="Speed Step 30" value="803" />
+        <varValue item="Speed Step 31" value="840" />
+        <varValue item="Speed Step 32" value="863" />
+        <varValue item="Speed Step 33" value="863" />
+        <varValue item="Speed Step 34" value="917" />
+        <varValue item="Speed Step 35" value="955" />
+        <varValue item="Speed Step 36" value="975" />
+        <varValue item="Speed Step 37" value="995" />
+        <varValue item="Speed Step 38" value="1020" />
+        <varValue item="Speed Step 39" value="1056" />
+        <varValue item="Speed Step 40" value="1094" />
+        <varValue item="Speed Step 41" value="1120" />
+        <varValue item="Speed Step 42" value="1120" />
+        <varValue item="Speed Step 43" value="1165" />
+        <varValue item="Speed Step 44" value="1188" />
+        <varValue item="Speed Step 45" value="1210" />
+        <varValue item="Speed Step 46" value="1222" />
+        <varValue item="Speed Step 47" value="1278" />
+        <varValue item="Speed Step 48" value="1278" />
+        <varValue item="Speed Step 49" value="1325" />
+        <varValue item="Speed Step 50" value="1325" />
+        <varValue item="Speed Step 51" value="1362" />
+        <varValue item="Speed Step 52" value="1400" />
+        <varValue item="Speed Step 53" value="1441" />
+        <varValue item="Speed Step 54" value="1483" />
+        <varValue item="Speed Step 55" value="1483" />
+        <varValue item="Speed Step 56" value="1483" />
+        <varValue item="Speed Step 57" value="1535" />
+        <varValue item="Speed Step 58" value="1570" />
+        <varValue item="Speed Step 59" value="1590" />
+        <varValue item="Speed Step 60" value="1650" />
+        <varValue item="Speed Step 61" value="1650" />
+        <varValue item="Speed Step 62" value="1650" />
+        <varValue item="Speed Step 63" value="1650" />
+        <varValue item="Speed Step 64" value="1725" />
+        <varValue item="Speed Step 65" value="1712" />
+        <varValue item="Speed Step 66" value="1750" />
+        <varValue item="Speed Step 67" value="1772" />
+        <varValue item="Speed Step 68" value="1800" />
+        <varValue item="Speed Step 69" value="1822" />
+        <varValue item="Speed Step 70" value="1822" />
+        <varValue item="Speed Step 71" value="1822" />
+        <varValue item="Speed Step 72" value="1855" />
+        <varValue item="Speed Step 73" value="1876" />
+        <varValue item="Speed Step 74" value="1886" />
+        <varValue item="Speed Step 75" value="1886" />
+        <varValue item="Speed Step 76" value="1915" />
+        <varValue item="Speed Step 77" value="1881" />
+        <varValue item="Speed Step 78" value="1902" />
+        <varValue item="Speed Step 79" value="1930" />
+        <varValue item="Speed Step 80" value="2000" />
+        <varValue item="Speed Step 81" value="2014" />
+        <varValue item="Speed Step 82" value="2014" />
+        <varValue item="Speed Step 83" value="2025" />
+        <varValue item="Speed Step 84" value="2030" />
+        <varValue item="Speed Step 85" value="2059" />
+        <varValue item="Speed Step 86" value="2047" />
+        <varValue item="Speed Step 87" value="2059" />
+        <varValue item="Speed Step 88" value="2067" />
+        <varValue item="Speed Step 89" value="2076" />
+        <varValue item="Speed Step 90" value="2125" />
+        <varValue item="Speed Step 91" value="2102" />
+        <varValue item="Speed Step 92" value="2111" />
+        <varValue item="Speed Step 93" value="2120" />
+        <varValue item="Speed Step 94" value="2137" />
+        <varValue item="Speed Step 95" value="2180" />
+        <varValue item="Speed Step 96" value="2206" />
+        <varValue item="Speed Step 97" value="2206" />
+        <varValue item="Speed Step 98" value="2172" />
+        <varValue item="Speed Step 99" value="2198" />
+        <varValue item="Speed Step 100" value="2206" />
+        <varValue item="Speed Step 101" value="2206" />
+        <varValue item="Speed Step 102" value="2206" />
+        <varValue item="Speed Step 103" value="2250" />
+        <varValue item="Speed Step 104" value="2275" />
+        <varValue item="Speed Step 105" value="2275" />
+        <varValue item="Speed Step 106" value="2275" />
+        <varValue item="Speed Step 107" value="2284" />
+        <varValue item="Speed Step 108" value="2302" />
+        <varValue item="Speed Step 109" value="2302" />
+        <varValue item="Speed Step 110" value="2311" />
+        <varValue item="Speed Step 111" value="2330" />
+        <varValue item="Speed Step 112" value="2339" />
+        <varValue item="Speed Step 113" value="2358" />
+        <varValue item="Speed Step 114" value="2376" />
+        <varValue item="Speed Step 115" value="2386" />
+        <varValue item="Speed Step 116" value="2386" />
+        <varValue item="Speed Step 117" value="2423" />
+        <varValue item="Speed Step 118" value="2423" />
+        <varValue item="Speed Step 119" value="2423" />
+        <varValue item="Speed Step 120" value="2423" />
+        <varValue item="Speed Step 121" value="2423" />
+        <varValue item="Speed Step 122" value="2450" />
+        <varValue item="Speed Step 123" value="2459" />
+        <varValue item="Speed Step 124" value="2468" />
+        <varValue item="Speed Step 125" value="2485" />
+        <varValue item="Speed Step 126" value="2525" />
+        <varValue item="Step 0: Fade Rate" value="225" />
+        <varValue item="Step 0: Start Brightness" value="20" />
+        <varValue item="Step 0: End Brightness" value="35" />
+        <varValue item="Step 1: Fade Rate" value="110" />
+        <varValue item="Step 1: Start Brightness" value="35" />
+        <varValue item="Step 1: End Brightness" value="100" />
+        <varValue item="Step 2: Fade Rate" value="110" />
+        <varValue item="Step 2: Start Brightness" value="100" />
+        <varValue item="Step 2: End Brightness" value="35" />
+        <varValue item="Step 3: Fade Rate" value="225" />
+        <varValue item="Step 3: Start Brightness" value="35" />
+        <varValue item="Step 3: End Brightness" value="20" />
+        <varValue item="Step 4: Fade Rate" value="0" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="500" />
+        <varValue item="Step 9: Start Brightness" value="100" />
+        <varValue item="Step 9: End Brightness" value="100" />
+        <varValue item="Step 0: Fade Rate" value="450" />
+        <varValue item="Step 0: Start Brightness" value="0" />
+        <varValue item="Step 0: End Brightness" value="0" />
+        <varValue item="Step 1: Fade Rate" value="150" />
+        <varValue item="Step 1: Start Brightness" value="40" />
+        <varValue item="Step 1: End Brightness" value="40" />
+        <varValue item="Step 2: Fade Rate" value="150" />
+        <varValue item="Step 2: Start Brightness" value="100" />
+        <varValue item="Step 2: End Brightness" value="100" />
+        <varValue item="Step 3: Fade Rate" value="175" />
+        <varValue item="Step 3: Start Brightness" value="40" />
+        <varValue item="Step 3: End Brightness" value="40" />
+        <varValue item="Step 4: Fade Rate" value="0" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="0" />
+        <varValue item="Step 9: Start Brightness" value="0" />
+        <varValue item="Step 9: End Brightness" value="0" />
+        <varValue item="Step 0: Fade Rate" value="900" />
+        <varValue item="Step 0: Start Brightness" value="100" />
+        <varValue item="Step 0: End Brightness" value="100" />
+        <varValue item="Step 1: Fade Rate" value="400" />
+        <varValue item="Step 1: Start Brightness" value="0" />
+        <varValue item="Step 1: End Brightness" value="0" />
+        <varValue item="Step 2: Fade Rate" value="0" />
+        <varValue item="Step 2: Start Brightness" value="0" />
+        <varValue item="Step 2: End Brightness" value="0" />
+        <varValue item="Step 3: Fade Rate" value="0" />
+        <varValue item="Step 3: Start Brightness" value="0" />
+        <varValue item="Step 3: End Brightness" value="0" />
+        <varValue item="Step 4: Fade Rate" value="0" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="0" />
+        <varValue item="Step 9: Start Brightness" value="0" />
+        <varValue item="Step 9: End Brightness" value="0" />
+        <varValue item="Step 0: Fade Rate" value="100" />
+        <varValue item="Step 0: Start Brightness" value="5" />
+        <varValue item="Step 0: End Brightness" value="5" />
+        <varValue item="Step 1: Fade Rate" value="725" />
+        <varValue item="Step 1: Start Brightness" value="5" />
+        <varValue item="Step 1: End Brightness" value="100" />
+        <varValue item="Step 2: Fade Rate" value="725" />
+        <varValue item="Step 2: Start Brightness" value="100" />
+        <varValue item="Step 2: End Brightness" value="5" />
+        <varValue item="Step 3: Fade Rate" value="0" />
+        <varValue item="Step 3: Start Brightness" value="0" />
+        <varValue item="Step 3: End Brightness" value="0" />
+        <varValue item="Step 4: Fade Rate" value="0" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="500" />
+        <varValue item="Step 9: Start Brightness" value="100" />
+        <varValue item="Step 9: End Brightness" value="100" />
+        <varValue item="Step 0: Fade Rate" value="50" />
+        <varValue item="Step 0: Start Brightness" value="100" />
+        <varValue item="Step 0: End Brightness" value="100" />
+        <varValue item="Step 1: Fade Rate" value="1000" />
+        <varValue item="Step 1: Start Brightness" value="0" />
+        <varValue item="Step 1: End Brightness" value="0" />
+        <varValue item="Step 2: Fade Rate" value="0" />
+        <varValue item="Step 2: Start Brightness" value="0" />
+        <varValue item="Step 2: End Brightness" value="0" />
+        <varValue item="Step 3: Fade Rate" value="0" />
+        <varValue item="Step 3: Start Brightness" value="0" />
+        <varValue item="Step 3: End Brightness" value="0" />
+        <varValue item="Step 4: Fade Rate" value="0" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="0" />
+        <varValue item="Step 9: Start Brightness" value="0" />
+        <varValue item="Step 9: End Brightness" value="0" />
+        <varValue item="Step 0: Fade Rate" value="50" />
+        <varValue item="Step 0: Start Brightness" value="100" />
+        <varValue item="Step 0: End Brightness" value="100" />
+        <varValue item="Step 1: Fade Rate" value="175" />
+        <varValue item="Step 1: Start Brightness" value="0" />
+        <varValue item="Step 1: End Brightness" value="0" />
+        <varValue item="Step 2: Fade Rate" value="50" />
+        <varValue item="Step 2: Start Brightness" value="100" />
+        <varValue item="Step 2: End Brightness" value="100" />
+        <varValue item="Step 3: Fade Rate" value="175" />
+        <varValue item="Step 3: Start Brightness" value="0" />
+        <varValue item="Step 3: End Brightness" value="0" />
+        <varValue item="Step 4: Fade Rate" value="50" />
+        <varValue item="Step 4: Start Brightness" value="100" />
+        <varValue item="Step 4: End Brightness" value="100" />
+        <varValue item="Step 5: Fade Rate" value="1000" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="0" />
+        <varValue item="Step 9: Start Brightness" value="0" />
+        <varValue item="Step 9: End Brightness" value="0" />
+        <varValue item="Step 0: Fade Rate" value="225" />
+        <varValue item="Step 0: Start Brightness" value="20" />
+        <varValue item="Step 0: End Brightness" value="35" />
+        <varValue item="Step 1: Fade Rate" value="110" />
+        <varValue item="Step 1: Start Brightness" value="35" />
+        <varValue item="Step 1: End Brightness" value="100" />
+        <varValue item="Step 2: Fade Rate" value="110" />
+        <varValue item="Step 2: Start Brightness" value="100" />
+        <varValue item="Step 2: End Brightness" value="35" />
+        <varValue item="Step 3: Fade Rate" value="225" />
+        <varValue item="Step 3: Start Brightness" value="35" />
+        <varValue item="Step 3: End Brightness" value="20" />
+        <varValue item="Step 4: Fade Rate" value="0" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="0" />
+        <varValue item="Step 9: Start Brightness" value="0" />
+        <varValue item="Step 9: End Brightness" value="0" />
+        <varValue item="Step 0: Fade Rate" value="50" />
+        <varValue item="Step 0: Start Brightness" value="100" />
+        <varValue item="Step 0: End Brightness" value="100" />
+        <varValue item="Step 1: Fade Rate" value="175" />
+        <varValue item="Step 1: Start Brightness" value="0" />
+        <varValue item="Step 1: End Brightness" value="0" />
+        <varValue item="Step 2: Fade Rate" value="50" />
+        <varValue item="Step 2: Start Brightness" value="100" />
+        <varValue item="Step 2: End Brightness" value="100" />
+        <varValue item="Step 3: Fade Rate" value="2000" />
+        <varValue item="Step 3: Start Brightness" value="0" />
+        <varValue item="Step 3: End Brightness" value="0" />
+        <varValue item="Step 4: Fade Rate" value="0" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="0" />
+        <varValue item="Step 9: Start Brightness" value="0" />
+        <varValue item="Step 9: End Brightness" value="0" />
+        <varValue item="Step 0: Fade Rate" value="1000" />
+        <varValue item="Step 0: Start Brightness" value="100" />
+        <varValue item="Step 0: End Brightness" value="100" />
+        <varValue item="Step 1: Fade Rate" value="0" />
+        <varValue item="Step 1: Start Brightness" value="0" />
+        <varValue item="Step 1: End Brightness" value="0" />
+        <varValue item="Step 2: Fade Rate" value="0" />
+        <varValue item="Step 2: Start Brightness" value="0" />
+        <varValue item="Step 2: End Brightness" value="0" />
+        <varValue item="Step 3: Fade Rate" value="0" />
+        <varValue item="Step 3: Start Brightness" value="0" />
+        <varValue item="Step 3: End Brightness" value="0" />
+        <varValue item="Step 4: Fade Rate" value="0" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="300" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="100" />
+        <varValue item="Step 8: Fade Rate" value="200" />
+        <varValue item="Step 8: Start Brightness" value="100" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="1000" />
+        <varValue item="Step 9: Start Brightness" value="20" />
+        <varValue item="Step 9: End Brightness" value="20" />
+        <varValue item="Step 0: Fade Rate" value="500" />
+        <varValue item="Step 0: Start Brightness" value="30" />
+        <varValue item="Step 0: End Brightness" value="30" />
+        <varValue item="Step 1: Fade Rate" value="0" />
+        <varValue item="Step 1: Start Brightness" value="0" />
+        <varValue item="Step 1: End Brightness" value="0" />
+        <varValue item="Step 2: Fade Rate" value="0" />
+        <varValue item="Step 2: Start Brightness" value="0" />
+        <varValue item="Step 2: End Brightness" value="0" />
+        <varValue item="Step 3: Fade Rate" value="0" />
+        <varValue item="Step 3: Start Brightness" value="0" />
+        <varValue item="Step 3: End Brightness" value="0" />
+        <varValue item="Step 4: Fade Rate" value="0" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="200" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="30" />
+        <varValue item="Step 8: Fade Rate" value="200" />
+        <varValue item="Step 8: Start Brightness" value="30" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="0" />
+        <varValue item="Step 9: Start Brightness" value="0" />
+        <varValue item="Step 9: End Brightness" value="0" />
+        <varValue item="Step 0: Fade Rate" value="500" />
+        <varValue item="Step 0: Start Brightness" value="100" />
+        <varValue item="Step 0: End Brightness" value="100" />
+        <varValue item="Step 1: Fade Rate" value="0" />
+        <varValue item="Step 1: Start Brightness" value="0" />
+        <varValue item="Step 1: End Brightness" value="0" />
+        <varValue item="Step 2: Fade Rate" value="0" />
+        <varValue item="Step 2: Start Brightness" value="0" />
+        <varValue item="Step 2: End Brightness" value="0" />
+        <varValue item="Step 3: Fade Rate" value="0" />
+        <varValue item="Step 3: Start Brightness" value="0" />
+        <varValue item="Step 3: End Brightness" value="0" />
+        <varValue item="Step 4: Fade Rate" value="0" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="300" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="100" />
+        <varValue item="Step 8: Fade Rate" value="200" />
+        <varValue item="Step 8: Start Brightness" value="100" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="0" />
+        <varValue item="Step 9: Start Brightness" value="0" />
+        <varValue item="Step 9: End Brightness" value="0" />
+        <varValue item="Step 0: Fade Rate" value="125" />
+        <varValue item="Step 0: Start Brightness" value="15" />
+        <varValue item="Step 0: End Brightness" value="30" />
+        <varValue item="Step 1: Fade Rate" value="200" />
+        <varValue item="Step 1: Start Brightness" value="40" />
+        <varValue item="Step 1: End Brightness" value="40" />
+        <varValue item="Step 2: Fade Rate" value="125" />
+        <varValue item="Step 2: Start Brightness" value="30" />
+        <varValue item="Step 2: End Brightness" value="15" />
+        <varValue item="Step 3: Fade Rate" value="0" />
+        <varValue item="Step 3: Start Brightness" value="0" />
+        <varValue item="Step 3: End Brightness" value="0" />
+        <varValue item="Step 4: Fade Rate" value="0" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="0" />
+        <varValue item="Step 9: Start Brightness" value="0" />
+        <varValue item="Step 9: End Brightness" value="0" />
+        <varValue item="Step 0: Fade Rate" value="100" />
+        <varValue item="Step 0: Start Brightness" value="5" />
+        <varValue item="Step 0: End Brightness" value="10" />
+        <varValue item="Step 1: Fade Rate" value="150" />
+        <varValue item="Step 1: Start Brightness" value="10" />
+        <varValue item="Step 1: End Brightness" value="40" />
+        <varValue item="Step 2: Fade Rate" value="120" />
+        <varValue item="Step 2: Start Brightness" value="40" />
+        <varValue item="Step 2: End Brightness" value="100" />
+        <varValue item="Step 3: Fade Rate" value="120" />
+        <varValue item="Step 3: Start Brightness" value="100" />
+        <varValue item="Step 3: End Brightness" value="40" />
+        <varValue item="Step 4: Fade Rate" value="150" />
+        <varValue item="Step 4: Start Brightness" value="40" />
+        <varValue item="Step 4: End Brightness" value="10" />
+        <varValue item="Step 5: Fade Rate" value="100" />
+        <varValue item="Step 5: Start Brightness" value="10" />
+        <varValue item="Step 5: End Brightness" value="5" />
+        <varValue item="Step 6: Fade Rate" value="200" />
+        <varValue item="Step 6: Start Brightness" value="5" />
+        <varValue item="Step 6: End Brightness" value="5" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="0" />
+        <varValue item="Step 9: Start Brightness" value="0" />
+        <varValue item="Step 9: End Brightness" value="0" />
+        <varValue item="Step 0: Fade Rate" value="725" />
+        <varValue item="Step 0: Start Brightness" value="100" />
+        <varValue item="Step 0: End Brightness" value="5" />
+        <varValue item="Step 1: Fade Rate" value="100" />
+        <varValue item="Step 1: Start Brightness" value="5" />
+        <varValue item="Step 1: End Brightness" value="5" />
+        <varValue item="Step 2: Fade Rate" value="725" />
+        <varValue item="Step 2: Start Brightness" value="5" />
+        <varValue item="Step 2: End Brightness" value="100" />
+        <varValue item="Step 3: Fade Rate" value="0" />
+        <varValue item="Step 3: Start Brightness" value="0" />
+        <varValue item="Step 3: End Brightness" value="0" />
+        <varValue item="Step 4: Fade Rate" value="0" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="500" />
+        <varValue item="Step 9: Start Brightness" value="100" />
+        <varValue item="Step 9: End Brightness" value="100" />
+        <varValue item="Step 0: Fade Rate" value="500" />
+        <varValue item="Step 0: Start Brightness" value="100" />
+        <varValue item="Step 0: End Brightness" value="100" />
+        <varValue item="Step 1: Fade Rate" value="0" />
+        <varValue item="Step 1: Start Brightness" value="0" />
+        <varValue item="Step 1: End Brightness" value="0" />
+        <varValue item="Step 2: Fade Rate" value="0" />
+        <varValue item="Step 2: Start Brightness" value="0" />
+        <varValue item="Step 2: End Brightness" value="0" />
+        <varValue item="Step 3: Fade Rate" value="0" />
+        <varValue item="Step 3: Start Brightness" value="0" />
+        <varValue item="Step 3: End Brightness" value="0" />
+        <varValue item="Step 4: Fade Rate" value="0" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="500" />
+        <varValue item="Step 9: Start Brightness" value="25" />
+        <varValue item="Step 9: End Brightness" value="25" />
+        <varValue item="Step 0: Fade Rate" value="750" />
+        <varValue item="Step 0: Start Brightness" value="0" />
+        <varValue item="Step 0: End Brightness" value="0" />
+        <varValue item="Step 1: Fade Rate" value="110" />
+        <varValue item="Step 1: Start Brightness" value="0" />
+        <varValue item="Step 1: End Brightness" value="25" />
+        <varValue item="Step 2: Fade Rate" value="85" />
+        <varValue item="Step 2: Start Brightness" value="25" />
+        <varValue item="Step 2: End Brightness" value="100" />
+        <varValue item="Step 3: Fade Rate" value="85" />
+        <varValue item="Step 3: Start Brightness" value="100" />
+        <varValue item="Step 3: End Brightness" value="25" />
+        <varValue item="Step 4: Fade Rate" value="120" />
+        <varValue item="Step 4: Start Brightness" value="25" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="0" />
+        <varValue item="Step 5: Start Brightness" value="0" />
+        <varValue item="Step 5: End Brightness" value="0" />
+        <varValue item="Step 6: Fade Rate" value="0" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="0" />
+        <varValue item="Step 9: Start Brightness" value="0" />
+        <varValue item="Step 9: End Brightness" value="0" />
+        <varValue item="Step 0: Fade Rate" value="500" />
+        <varValue item="Step 0: Start Brightness" value="0" />
+        <varValue item="Step 0: End Brightness" value="100" />
+        <varValue item="Step 1: Fade Rate" value="500" />
+        <varValue item="Step 1: Start Brightness" value="100" />
+        <varValue item="Step 1: End Brightness" value="0" />
+        <varValue item="Step 2: Fade Rate" value="300" />
+        <varValue item="Step 2: Start Brightness" value="0" />
+        <varValue item="Step 2: End Brightness" value="0" />
+        <varValue item="Step 3: Fade Rate" value="50" />
+        <varValue item="Step 3: Start Brightness" value="100" />
+        <varValue item="Step 3: End Brightness" value="100" />
+        <varValue item="Step 4: Fade Rate" value="175" />
+        <varValue item="Step 4: Start Brightness" value="0" />
+        <varValue item="Step 4: End Brightness" value="0" />
+        <varValue item="Step 5: Fade Rate" value="50" />
+        <varValue item="Step 5: Start Brightness" value="100" />
+        <varValue item="Step 5: End Brightness" value="100" />
+        <varValue item="Step 6: Fade Rate" value="175" />
+        <varValue item="Step 6: Start Brightness" value="0" />
+        <varValue item="Step 6: End Brightness" value="0" />
+        <varValue item="Step 7: Fade Rate" value="0" />
+        <varValue item="Step 7: Start Brightness" value="0" />
+        <varValue item="Step 7: End Brightness" value="0" />
+        <varValue item="Step 8: Fade Rate" value="0" />
+        <varValue item="Step 8: Start Brightness" value="0" />
+        <varValue item="Step 8: End Brightness" value="0" />
+        <varValue item="Step 9: Fade Rate" value="0" />
+        <varValue item="Step 9: Start Brightness" value="0" />
+        <varValue item="Step 9: End Brightness" value="0" />
+        <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
+      </decoderDef>
+      <CVvalue name="120" value="30" />
+      <CVvalue name="122" value="0" />
+      <CVvalue name="123" value="5" />
+      <CVvalue name="16.4.258" value="0" />
+      <CVvalue name="16.4.257" value="0" />
+      <CVvalue name="16.4.260" value="0" />
+      <CVvalue name="16.4.259" value="0" />
+      <CVvalue name="16.4.262" value="0" />
+      <CVvalue name="16.4.261" value="0" />
+      <CVvalue name="16.4.264" value="0" />
+      <CVvalue name="16.4.263" value="0" />
+      <CVvalue name="16.4.266" value="0" />
+      <CVvalue name="16.4.265" value="0" />
+      <CVvalue name="16.4.268" value="0" />
+      <CVvalue name="16.4.267" value="0" />
+      <CVvalue name="16.4.270" value="0" />
+      <CVvalue name="16.4.269" value="0" />
+      <CVvalue name="16.4.272" value="0" />
+      <CVvalue name="16.4.271" value="0" />
+      <CVvalue name="16.4.274" value="0" />
+      <CVvalue name="16.4.273" value="0" />
+      <CVvalue name="16.4.276" value="0" />
+      <CVvalue name="16.4.275" value="0" />
+      <CVvalue name="16.4.278" value="0" />
+      <CVvalue name="16.4.277" value="0" />
+      <CVvalue name="16.4.280" value="0" />
+      <CVvalue name="16.4.279" value="0" />
+      <CVvalue name="16.4.282" value="0" />
+      <CVvalue name="16.4.281" value="0" />
+      <CVvalue name="16.4.284" value="0" />
+      <CVvalue name="16.4.283" value="0" />
+      <CVvalue name="16.4.286" value="0" />
+      <CVvalue name="16.4.285" value="0" />
+      <CVvalue name="16.4.288" value="0" />
+      <CVvalue name="16.4.287" value="0" />
+      <CVvalue name="16.4.290" value="0" />
+      <CVvalue name="16.4.289" value="0" />
+      <CVvalue name="16.4.292" value="0" />
+      <CVvalue name="16.4.291" value="0" />
+      <CVvalue name="16.4.294" value="0" />
+      <CVvalue name="16.4.293" value="0" />
+      <CVvalue name="16.4.296" value="0" />
+      <CVvalue name="16.4.295" value="0" />
+      <CVvalue name="16.4.298" value="0" />
+      <CVvalue name="16.4.297" value="0" />
+      <CVvalue name="16.4.300" value="0" />
+      <CVvalue name="16.4.299" value="0" />
+      <CVvalue name="16.4.302" value="0" />
+      <CVvalue name="16.4.301" value="0" />
+      <CVvalue name="16.4.304" value="0" />
+      <CVvalue name="16.4.303" value="0" />
+      <CVvalue name="16.4.306" value="0" />
+      <CVvalue name="16.4.305" value="0" />
+      <CVvalue name="16.4.308" value="0" />
+      <CVvalue name="16.4.307" value="0" />
+      <CVvalue name="16.4.310" value="0" />
+      <CVvalue name="16.4.309" value="0" />
+      <CVvalue name="16.4.312" value="0" />
+      <CVvalue name="16.4.311" value="0" />
+      <CVvalue name="16.4.314" value="0" />
+      <CVvalue name="16.4.313" value="0" />
+      <CVvalue name="16.4.316" value="0" />
+      <CVvalue name="16.4.315" value="0" />
+      <CVvalue name="16.4.318" value="0" />
+      <CVvalue name="16.4.317" value="0" />
+      <CVvalue name="16.4.320" value="0" />
+      <CVvalue name="16.4.319" value="0" />
+      <CVvalue name="16.4.322" value="0" />
+      <CVvalue name="16.4.321" value="0" />
+      <CVvalue name="16.4.324" value="0" />
+      <CVvalue name="16.4.323" value="0" />
+      <CVvalue name="216" value="60" />
+      <CVvalue name="217" value="100" />
+      <CVvalue name="214" value="100" />
+      <CVvalue name="215" value="100" />
+      <CVvalue name="212" value="40" />
+      <CVvalue name="213" value="100" />
+      <CVvalue name="210" value="10" />
+      <CVvalue name="211" value="50" />
+      <CVvalue name="218" value="100" />
+      <CVvalue name="219" value="15" />
+      <CVvalue name="133" value="5" />
+      <CVvalue name="132" value="0" />
+      <CVvalue name="131" value="0" />
+      <CVvalue name="130" value="0" />
+      <CVvalue name="136" value="60" />
+      <CVvalue name="135" value="20" />
+      <CVvalue name="134" value="5" />
+      <CVvalue name="139" value="3" />
+      <CVvalue name="138" value="0" />
+      <CVvalue name="24" value="0" />
+      <CVvalue name="21" value="31" />
+      <CVvalue name="22" value="63" />
+      <CVvalue name="23" value="0" />
+      <CVvalue name="95" value="128" />
+      <CVvalue name="28" value="3" />
+      <CVvalue name="29" value="34" />
+      <CVvalue name="4" value="60" />
+      <CVvalue name="8" value="153" />
+      <CVvalue name="124" value="2" />
+      <CVvalue name="125" value="13" />
+      <CVvalue name="126" value="4" />
+      <CVvalue name="128" value="70" />
+      <CVvalue name="129" value="0" />
+      <CVvalue name="59" value="0" />
+      <CVvalue name="58" value="0" />
+      <CVvalue name="55" value="0" />
+      <CVvalue name="54" value="0" />
+      <CVvalue name="57" value="0" />
+      <CVvalue name="56" value="0" />
+      <CVvalue name="51" value="0" />
+      <CVvalue name="50" value="0" />
+      <CVvalue name="53" value="0" />
+      <CVvalue name="52" value="0" />
+      <CVvalue name="201" value="15" />
+      <CVvalue name="199" value="13" />
+      <CVvalue name="179" value="3" />
+      <CVvalue name="200" value="15" />
+      <CVvalue name="195" value="25" />
+      <CVvalue name="197" value="16" />
+      <CVvalue name="196" value="15" />
+      <CVvalue name="191" value="5" />
+      <CVvalue name="190" value="50" />
+      <CVvalue name="192" value="0" />
+      <CVvalue name="115" value="4" />
+      <CVvalue name="114" value="10" />
+      <CVvalue name="116" value="3" />
+      <CVvalue name="113" value="0" />
+      <CVvalue name="112" value="36" />
+      <CVvalue name="181" value="31" />
+      <CVvalue name="250" value="7" />
+      <CVvalue name="204" value="10" />
+      <CVvalue name="251" value="21" />
+      <CVvalue name="198" value="10" />
+      <CVvalue name="256" value="0" />
+      <CVvalue name="206" value="100" />
+      <CVvalue name="3" value="20" />
+      <CVvalue name="254" value="0" />
+      <CVvalue name="7" value="5" />
+      <CVvalue name="255" value="0" />
+      <CVvalue name="244" value="35" />
+      <CVvalue name="241" value="8" />
+      <CVvalue name="240" value="0" />
+      <CVvalue name="243" value="255" />
+      <CVvalue name="242" value="8" />
+      <CVvalue name="106" value="0" />
+      <CVvalue name="248" value="0" />
+      <CVvalue name="105" value="0" />
+      <CVvalue name="39" value="5" />
+      <CVvalue name="38" value="4" />
+      <CVvalue name="33" value="0" />
+      <CVvalue name="37" value="3" />
+      <CVvalue name="36" value="2" />
+      <CVvalue name="35" value="1" />
+      <CVvalue name="34" value="0" />
+      <CVvalue name="252" value="17" />
+      <CVvalue name="60" value="0" />
+      <CVvalue name="61" value="1" />
+      <CVvalue name="63" value="14" />
+      <CVvalue name="66" value="128" />
+      <CVvalue name="178" value="0" />
+      <CVvalue name="177" value="18" />
+      <CVvalue name="176" value="251" />
+      <CVvalue name="175" value="0" />
+      <CVvalue name="174" value="0" />
+      <CVvalue name="173" value="42" />
+      <CVvalue name="172" value="48" />
+      <CVvalue name="171" value="41" />
+      <CVvalue name="170" value="34" />
+      <CVvalue name="203" value="45" />
+      <CVvalue name="249" value="200" />
+      <CVvalue name="253" value="0" />
+      <CVvalue name="183" value="32" />
+      <CVvalue name="2" value="0" />
+      <CVvalue name="186" value="8" />
+      <CVvalue name="187" value="3" />
+      <CVvalue name="184" value="26" />
+      <CVvalue name="6" value="0" />
+      <CVvalue name="189" value="10" />
+      <CVvalue name="202" value="15" />
+      <CVvalue name="185" value="16" />
+      <CVvalue name="168" value="20" />
+      <CVvalue name="169" value="27" />
+      <CVvalue name="165" value="1" />
+      <CVvalue name="166" value="6" />
+      <CVvalue name="167" value="13" />
+      <CVvalue name="160" value="20" />
+      <CVvalue name="161" value="50" />
+      <CVvalue name="162" value="80" />
+      <CVvalue name="11" value="0" />
+      <CVvalue name="13" value="127" />
+      <CVvalue name="15" value="2" />
+      <CVvalue name="17" value="204" />
+      <CVvalue name="18" value="38" />
+      <CVvalue name="16" value="2" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="152" value="10" />
+      <CVvalue name="154" value="85" />
+      <CVvalue name="156" value="5" />
+      <CVvalue name="159" value="0" />
+      <CVvalue name="238" value="1" />
+      <CVvalue name="239" value="1" />
+      <CVvalue name="207" value="100" />
+      <CVvalue name="49" value="0" />
+      <CVvalue name="44" value="10" />
+      <CVvalue name="42" value="8" />
+      <CVvalue name="43" value="9" />
+      <CVvalue name="40" value="6" />
+      <CVvalue name="41" value="7" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="5" value="0" />
+      <CVvalue name="146" value="0" />
+      <CVvalue name="147" value="0" />
+      <CVvalue name="144" value="16" />
+      <CVvalue name="145" value="15" />
+      <CVvalue name="142" value="200" />
+      <CVvalue name="143" value="64" />
+      <CVvalue name="140" value="7" />
+      <CVvalue name="141" value="200" />
+      <CVvalue name="209" value="10" />
+      <CVvalue name="208" value="100" />
+      <CVvalue name="148" value="0" />
+      <CVvalue name="149" value="0" />
+      <CVvalue name="205" value="100" />
+      <CVvalue name="16.0.260" value="77" />
+      <CVvalue name="16.0.262" value="5" />
+      <CVvalue name="16.0.264" value="75" />
+      <CVvalue name="16.0.266" value="10" />
+      <CVvalue name="16.0.268" value="116" />
+      <CVvalue name="16.0.274" value="110" />
+      <CVvalue name="16.0.276" value="10" />
+      <CVvalue name="16.0.278" value="100" />
+      <CVvalue name="16.0.280" value="29" />
+      <CVvalue name="16.0.282" value="180" />
+      <CVvalue name="16.2.259" value="4" />
+      <CVvalue name="16.2.260" value="0" />
+      <CVvalue name="16.2.261" value="20" />
+      <CVvalue name="16.2.262" value="0" />
+      <CVvalue name="16.2.263" value="35" />
+      <CVvalue name="16.2.264" value="0" />
+      <CVvalue name="16.2.265" value="47" />
+      <CVvalue name="16.2.266" value="0" />
+      <CVvalue name="16.2.267" value="68" />
+      <CVvalue name="16.2.268" value="0" />
+      <CVvalue name="16.2.269" value="90" />
+      <CVvalue name="16.2.270" value="0" />
+      <CVvalue name="16.2.271" value="110" />
+      <CVvalue name="16.2.272" value="0" />
+      <CVvalue name="16.2.273" value="18" />
+      <CVvalue name="16.2.274" value="1" />
+      <CVvalue name="16.2.275" value="45" />
+      <CVvalue name="16.2.276" value="1" />
+      <CVvalue name="16.2.277" value="72" />
+      <CVvalue name="16.2.278" value="1" />
+      <CVvalue name="16.2.279" value="104" />
+      <CVvalue name="16.2.280" value="1" />
+      <CVvalue name="16.2.281" value="28" />
+      <CVvalue name="16.2.282" value="2" />
+      <CVvalue name="16.2.283" value="78" />
+      <CVvalue name="16.2.284" value="2" />
+      <CVvalue name="16.2.285" value="104" />
+      <CVvalue name="16.2.286" value="2" />
+      <CVvalue name="16.2.287" value="4" />
+      <CVvalue name="16.2.288" value="3" />
+      <CVvalue name="16.2.289" value="2" />
+      <CVvalue name="16.2.290" value="3" />
+      <CVvalue name="16.2.291" value="46" />
+      <CVvalue name="16.2.292" value="3" />
+      <CVvalue name="16.2.293" value="86" />
+      <CVvalue name="16.2.294" value="3" />
+      <CVvalue name="16.2.295" value="6" />
+      <CVvalue name="16.2.296" value="4" />
+      <CVvalue name="16.2.297" value="28" />
+      <CVvalue name="16.2.298" value="4" />
+      <CVvalue name="16.2.299" value="28" />
+      <CVvalue name="16.2.300" value="4" />
+      <CVvalue name="16.2.301" value="28" />
+      <CVvalue name="16.2.302" value="4" />
+      <CVvalue name="16.2.303" value="108" />
+      <CVvalue name="16.2.304" value="4" />
+      <CVvalue name="16.2.305" value="108" />
+      <CVvalue name="16.2.306" value="4" />
+      <CVvalue name="16.2.307" value="28" />
+      <CVvalue name="16.2.308" value="5" />
+      <CVvalue name="16.2.309" value="52" />
+      <CVvalue name="16.2.310" value="5" />
+      <CVvalue name="16.2.311" value="95" />
+      <CVvalue name="16.2.312" value="5" />
+      <CVvalue name="16.2.313" value="95" />
+      <CVvalue name="16.2.314" value="5" />
+      <CVvalue name="16.2.315" value="119" />
+      <CVvalue name="16.2.316" value="5" />
+      <CVvalue name="16.2.317" value="35" />
+      <CVvalue name="16.2.318" value="6" />
+      <CVvalue name="16.2.319" value="72" />
+      <CVvalue name="16.2.320" value="6" />
+      <CVvalue name="16.2.321" value="95" />
+      <CVvalue name="16.2.322" value="6" />
+      <CVvalue name="16.2.323" value="95" />
+      <CVvalue name="16.2.324" value="6" />
+      <CVvalue name="16.2.325" value="21" />
+      <CVvalue name="16.2.326" value="7" />
+      <CVvalue name="16.2.327" value="59" />
+      <CVvalue name="16.2.328" value="7" />
+      <CVvalue name="16.2.329" value="79" />
+      <CVvalue name="16.2.330" value="7" />
+      <CVvalue name="16.2.331" value="99" />
+      <CVvalue name="16.2.332" value="7" />
+      <CVvalue name="16.2.333" value="124" />
+      <CVvalue name="16.2.334" value="7" />
+      <CVvalue name="16.2.335" value="32" />
+      <CVvalue name="16.2.336" value="8" />
+      <CVvalue name="16.2.337" value="70" />
+      <CVvalue name="16.2.338" value="8" />
+      <CVvalue name="16.2.339" value="96" />
+      <CVvalue name="16.2.340" value="8" />
+      <CVvalue name="16.2.341" value="96" />
+      <CVvalue name="16.2.342" value="8" />
+      <CVvalue name="16.2.343" value="13" />
+      <CVvalue name="16.2.344" value="9" />
+      <CVvalue name="16.2.345" value="36" />
+      <CVvalue name="16.2.346" value="9" />
+      <CVvalue name="16.2.347" value="58" />
+      <CVvalue name="16.2.348" value="9" />
+      <CVvalue name="16.2.349" value="70" />
+      <CVvalue name="16.2.350" value="9" />
+      <CVvalue name="16.2.351" value="126" />
+      <CVvalue name="16.2.352" value="9" />
+      <CVvalue name="16.2.353" value="126" />
+      <CVvalue name="16.2.354" value="9" />
+      <CVvalue name="16.2.355" value="45" />
+      <CVvalue name="16.2.356" value="10" />
+      <CVvalue name="16.2.357" value="45" />
+      <CVvalue name="16.2.358" value="10" />
+      <CVvalue name="16.2.359" value="82" />
+      <CVvalue name="16.2.360" value="10" />
+      <CVvalue name="16.2.361" value="120" />
+      <CVvalue name="16.2.362" value="10" />
+      <CVvalue name="16.2.363" value="33" />
+      <CVvalue name="16.2.364" value="11" />
+      <CVvalue name="16.2.365" value="75" />
+      <CVvalue name="16.2.366" value="11" />
+      <CVvalue name="16.2.367" value="75" />
+      <CVvalue name="16.2.368" value="11" />
+      <CVvalue name="16.2.369" value="75" />
+      <CVvalue name="16.2.370" value="11" />
+      <CVvalue name="16.2.371" value="127" />
+      <CVvalue name="16.2.372" value="11" />
+      <CVvalue name="16.2.373" value="34" />
+      <CVvalue name="16.2.374" value="12" />
+      <CVvalue name="16.2.375" value="54" />
+      <CVvalue name="16.2.376" value="12" />
+      <CVvalue name="16.2.377" value="114" />
+      <CVvalue name="16.2.378" value="12" />
+      <CVvalue name="16.2.379" value="114" />
+      <CVvalue name="16.2.380" value="12" />
+      <CVvalue name="16.2.381" value="114" />
+      <CVvalue name="16.2.382" value="12" />
+      <CVvalue name="16.2.383" value="114" />
+      <CVvalue name="16.2.384" value="12" />
+      <CVvalue name="16.2.385" value="61" />
+      <CVvalue name="16.2.386" value="13" />
+      <CVvalue name="16.2.387" value="48" />
+      <CVvalue name="16.2.388" value="13" />
+      <CVvalue name="16.2.389" value="86" />
+      <CVvalue name="16.2.390" value="13" />
+      <CVvalue name="16.2.391" value="108" />
+      <CVvalue name="16.2.392" value="13" />
+      <CVvalue name="16.2.393" value="8" />
+      <CVvalue name="16.2.394" value="14" />
+      <CVvalue name="16.2.395" value="30" />
+      <CVvalue name="16.2.396" value="14" />
+      <CVvalue name="16.2.397" value="30" />
+      <CVvalue name="16.2.398" value="14" />
+      <CVvalue name="16.2.399" value="30" />
+      <CVvalue name="16.2.400" value="14" />
+      <CVvalue name="16.2.401" value="63" />
+      <CVvalue name="16.2.402" value="14" />
+      <CVvalue name="16.2.403" value="84" />
+      <CVvalue name="16.2.404" value="14" />
+      <CVvalue name="16.2.405" value="94" />
+      <CVvalue name="16.2.406" value="14" />
+      <CVvalue name="16.2.407" value="94" />
+      <CVvalue name="16.2.408" value="14" />
+      <CVvalue name="16.2.409" value="123" />
+      <CVvalue name="16.2.410" value="14" />
+      <CVvalue name="16.2.411" value="89" />
+      <CVvalue name="16.2.412" value="14" />
+      <CVvalue name="16.2.413" value="110" />
+      <CVvalue name="16.2.414" value="14" />
+      <CVvalue name="16.2.415" value="10" />
+      <CVvalue name="16.2.416" value="15" />
+      <CVvalue name="16.2.417" value="80" />
+      <CVvalue name="16.2.418" value="15" />
+      <CVvalue name="16.2.419" value="94" />
+      <CVvalue name="16.2.420" value="15" />
+      <CVvalue name="16.2.421" value="94" />
+      <CVvalue name="16.2.422" value="15" />
+      <CVvalue name="16.2.423" value="105" />
+      <CVvalue name="16.2.424" value="15" />
+      <CVvalue name="16.2.425" value="110" />
+      <CVvalue name="16.2.426" value="15" />
+      <CVvalue name="16.2.427" value="11" />
+      <CVvalue name="16.2.428" value="16" />
+      <CVvalue name="16.2.429" value="127" />
+      <CVvalue name="16.2.430" value="15" />
+      <CVvalue name="16.2.431" value="11" />
+      <CVvalue name="16.2.432" value="16" />
+      <CVvalue name="16.2.433" value="19" />
+      <CVvalue name="16.2.434" value="16" />
+      <CVvalue name="16.2.435" value="28" />
+      <CVvalue name="16.2.436" value="16" />
+      <CVvalue name="16.2.437" value="77" />
+      <CVvalue name="16.2.438" value="16" />
+      <CVvalue name="16.2.439" value="54" />
+      <CVvalue name="16.2.440" value="16" />
+      <CVvalue name="16.2.441" value="63" />
+      <CVvalue name="16.2.442" value="16" />
+      <CVvalue name="16.2.443" value="72" />
+      <CVvalue name="16.2.444" value="16" />
+      <CVvalue name="16.2.445" value="89" />
+      <CVvalue name="16.2.446" value="16" />
+      <CVvalue name="16.2.447" value="4" />
+      <CVvalue name="16.2.448" value="17" />
+      <CVvalue name="16.2.449" value="30" />
+      <CVvalue name="16.2.450" value="17" />
+      <CVvalue name="16.2.451" value="30" />
+      <CVvalue name="16.2.452" value="17" />
+      <CVvalue name="16.2.453" value="124" />
+      <CVvalue name="16.2.454" value="16" />
+      <CVvalue name="16.2.455" value="22" />
+      <CVvalue name="16.2.456" value="17" />
+      <CVvalue name="16.2.457" value="30" />
+      <CVvalue name="16.2.458" value="17" />
+      <CVvalue name="16.2.459" value="30" />
+      <CVvalue name="16.2.460" value="17" />
+      <CVvalue name="16.2.461" value="30" />
+      <CVvalue name="16.2.462" value="17" />
+      <CVvalue name="16.2.463" value="74" />
+      <CVvalue name="16.2.464" value="17" />
+      <CVvalue name="16.2.465" value="99" />
+      <CVvalue name="16.2.466" value="17" />
+      <CVvalue name="16.2.467" value="99" />
+      <CVvalue name="16.2.468" value="17" />
+      <CVvalue name="16.2.469" value="99" />
+      <CVvalue name="16.2.470" value="17" />
+      <CVvalue name="16.2.471" value="108" />
+      <CVvalue name="16.2.472" value="17" />
+      <CVvalue name="16.2.473" value="126" />
+      <CVvalue name="16.2.474" value="17" />
+      <CVvalue name="16.2.475" value="126" />
+      <CVvalue name="16.2.476" value="17" />
+      <CVvalue name="16.2.477" value="7" />
+      <CVvalue name="16.2.478" value="18" />
+      <CVvalue name="16.2.479" value="26" />
+      <CVvalue name="16.2.480" value="18" />
+      <CVvalue name="16.2.481" value="35" />
+      <CVvalue name="16.2.482" value="18" />
+      <CVvalue name="16.2.483" value="54" />
+      <CVvalue name="16.2.484" value="18" />
+      <CVvalue name="16.2.485" value="72" />
+      <CVvalue name="16.2.486" value="18" />
+      <CVvalue name="16.2.487" value="82" />
+      <CVvalue name="16.2.488" value="18" />
+      <CVvalue name="16.2.489" value="82" />
+      <CVvalue name="16.2.490" value="18" />
+      <CVvalue name="16.2.491" value="119" />
+      <CVvalue name="16.2.492" value="18" />
+      <CVvalue name="16.2.493" value="119" />
+      <CVvalue name="16.2.494" value="18" />
+      <CVvalue name="16.2.495" value="119" />
+      <CVvalue name="16.2.496" value="18" />
+      <CVvalue name="16.2.497" value="119" />
+      <CVvalue name="16.2.498" value="18" />
+      <CVvalue name="16.2.499" value="119" />
+      <CVvalue name="16.2.500" value="18" />
+      <CVvalue name="16.2.501" value="18" />
+      <CVvalue name="16.2.502" value="19" />
+      <CVvalue name="16.2.503" value="27" />
+      <CVvalue name="16.2.504" value="19" />
+      <CVvalue name="16.2.505" value="36" />
+      <CVvalue name="16.2.506" value="19" />
+      <CVvalue name="16.2.507" value="53" />
+      <CVvalue name="16.2.508" value="19" />
+      <CVvalue name="16.2.509" value="93" />
+      <CVvalue name="16.2.510" value="19" />
+      <CVvalue name="16.9.509" value="97" />
+      <CVvalue name="16.9.510" value="1" />
+      <CVvalue name="16.9.512" value="20" />
+      <CVvalue name="16.10.258" value="35" />
+      <CVvalue name="16.10.259" value="110" />
+      <CVvalue name="16.10.260" value="0" />
+      <CVvalue name="16.10.262" value="35" />
+      <CVvalue name="16.10.264" value="100" />
+      <CVvalue name="16.10.265" value="110" />
+      <CVvalue name="16.10.266" value="0" />
+      <CVvalue name="16.10.268" value="100" />
+      <CVvalue name="16.10.270" value="35" />
+      <CVvalue name="16.10.271" value="97" />
+      <CVvalue name="16.10.272" value="1" />
+      <CVvalue name="16.10.274" value="35" />
+      <CVvalue name="16.10.276" value="20" />
+      <CVvalue name="16.10.277" value="0" />
+      <CVvalue name="16.10.278" value="0" />
+      <CVvalue name="16.10.280" value="0" />
+      <CVvalue name="16.10.282" value="0" />
+      <CVvalue name="16.10.283" value="0" />
+      <CVvalue name="16.10.284" value="0" />
+      <CVvalue name="16.10.286" value="0" />
+      <CVvalue name="16.10.288" value="0" />
+      <CVvalue name="16.10.289" value="0" />
+      <CVvalue name="16.10.290" value="0" />
+      <CVvalue name="16.10.292" value="0" />
+      <CVvalue name="16.10.294" value="0" />
+      <CVvalue name="16.10.295" value="0" />
+      <CVvalue name="16.10.296" value="0" />
+      <CVvalue name="16.10.298" value="0" />
+      <CVvalue name="16.10.300" value="0" />
+      <CVvalue name="16.10.301" value="0" />
+      <CVvalue name="16.10.302" value="0" />
+      <CVvalue name="16.10.304" value="0" />
+      <CVvalue name="16.10.306" value="0" />
+      <CVvalue name="16.10.307" value="116" />
+      <CVvalue name="16.10.308" value="3" />
+      <CVvalue name="16.10.310" value="100" />
+      <CVvalue name="16.10.312" value="100" />
+      <CVvalue name="16.12.461" value="66" />
+      <CVvalue name="16.12.462" value="3" />
+      <CVvalue name="16.12.464" value="0" />
+      <CVvalue name="16.12.466" value="0" />
+      <CVvalue name="16.12.467" value="22" />
+      <CVvalue name="16.12.468" value="1" />
+      <CVvalue name="16.12.470" value="40" />
+      <CVvalue name="16.12.472" value="40" />
+      <CVvalue name="16.12.473" value="22" />
+      <CVvalue name="16.12.474" value="1" />
+      <CVvalue name="16.12.476" value="100" />
+      <CVvalue name="16.12.478" value="100" />
+      <CVvalue name="16.12.479" value="47" />
+      <CVvalue name="16.12.480" value="1" />
+      <CVvalue name="16.12.482" value="40" />
+      <CVvalue name="16.12.484" value="40" />
+      <CVvalue name="16.12.485" value="0" />
+      <CVvalue name="16.12.486" value="0" />
+      <CVvalue name="16.12.488" value="0" />
+      <CVvalue name="16.12.490" value="0" />
+      <CVvalue name="16.12.491" value="0" />
+      <CVvalue name="16.12.492" value="0" />
+      <CVvalue name="16.12.494" value="0" />
+      <CVvalue name="16.12.496" value="0" />
+      <CVvalue name="16.12.497" value="0" />
+      <CVvalue name="16.12.498" value="0" />
+      <CVvalue name="16.12.500" value="0" />
+      <CVvalue name="16.12.502" value="0" />
+      <CVvalue name="16.12.503" value="0" />
+      <CVvalue name="16.12.504" value="0" />
+      <CVvalue name="16.12.506" value="0" />
+      <CVvalue name="16.12.508" value="0" />
+      <CVvalue name="16.12.509" value="0" />
+      <CVvalue name="16.12.510" value="0" />
+      <CVvalue name="16.12.512" value="0" />
+      <CVvalue name="16.13.258" value="0" />
+      <CVvalue name="16.13.259" value="0" />
+      <CVvalue name="16.13.260" value="0" />
+      <CVvalue name="16.13.262" value="0" />
+      <CVvalue name="16.13.264" value="0" />
+      <CVvalue name="16.11.477" value="4" />
+      <CVvalue name="16.11.478" value="7" />
+      <CVvalue name="16.11.480" value="100" />
+      <CVvalue name="16.11.482" value="100" />
+      <CVvalue name="16.11.483" value="16" />
+      <CVvalue name="16.11.484" value="3" />
+      <CVvalue name="16.11.486" value="0" />
+      <CVvalue name="16.11.488" value="0" />
+      <CVvalue name="16.11.489" value="0" />
+      <CVvalue name="16.11.490" value="0" />
+      <CVvalue name="16.11.492" value="0" />
+      <CVvalue name="16.11.494" value="0" />
+      <CVvalue name="16.11.495" value="0" />
+      <CVvalue name="16.11.496" value="0" />
+      <CVvalue name="16.11.498" value="0" />
+      <CVvalue name="16.11.500" value="0" />
+      <CVvalue name="16.11.501" value="0" />
+      <CVvalue name="16.11.502" value="0" />
+      <CVvalue name="16.11.504" value="0" />
+      <CVvalue name="16.11.506" value="0" />
+      <CVvalue name="16.11.507" value="0" />
+      <CVvalue name="16.11.508" value="0" />
+      <CVvalue name="16.11.510" value="0" />
+      <CVvalue name="16.11.512" value="0" />
+      <CVvalue name="16.12.257" value="0" />
+      <CVvalue name="16.12.258" value="0" />
+      <CVvalue name="16.12.260" value="0" />
+      <CVvalue name="16.12.262" value="0" />
+      <CVvalue name="16.12.263" value="0" />
+      <CVvalue name="16.12.264" value="0" />
+      <CVvalue name="16.12.266" value="0" />
+      <CVvalue name="16.12.268" value="0" />
+      <CVvalue name="16.12.269" value="0" />
+      <CVvalue name="16.12.270" value="0" />
+      <CVvalue name="16.12.272" value="0" />
+      <CVvalue name="16.12.274" value="0" />
+      <CVvalue name="16.12.275" value="0" />
+      <CVvalue name="16.12.276" value="0" />
+      <CVvalue name="16.12.278" value="0" />
+      <CVvalue name="16.12.280" value="0" />
+      <CVvalue name="16.10.493" value="100" />
+      <CVvalue name="16.10.494" value="0" />
+      <CVvalue name="16.10.496" value="5" />
+      <CVvalue name="16.10.498" value="5" />
+      <CVvalue name="16.10.499" value="85" />
+      <CVvalue name="16.10.500" value="5" />
+      <CVvalue name="16.10.502" value="5" />
+      <CVvalue name="16.10.504" value="100" />
+      <CVvalue name="16.10.505" value="85" />
+      <CVvalue name="16.10.506" value="5" />
+      <CVvalue name="16.10.508" value="100" />
+      <CVvalue name="16.10.510" value="5" />
+      <CVvalue name="16.10.511" value="0" />
+      <CVvalue name="16.10.512" value="0" />
+      <CVvalue name="16.11.258" value="0" />
+      <CVvalue name="16.11.260" value="0" />
+      <CVvalue name="16.11.261" value="0" />
+      <CVvalue name="16.11.262" value="0" />
+      <CVvalue name="16.11.264" value="0" />
+      <CVvalue name="16.11.266" value="0" />
+      <CVvalue name="16.11.267" value="0" />
+      <CVvalue name="16.11.268" value="0" />
+      <CVvalue name="16.11.270" value="0" />
+      <CVvalue name="16.11.272" value="0" />
+      <CVvalue name="16.11.273" value="0" />
+      <CVvalue name="16.11.274" value="0" />
+      <CVvalue name="16.11.276" value="0" />
+      <CVvalue name="16.11.278" value="0" />
+      <CVvalue name="16.11.279" value="0" />
+      <CVvalue name="16.11.280" value="0" />
+      <CVvalue name="16.11.282" value="0" />
+      <CVvalue name="16.11.284" value="0" />
+      <CVvalue name="16.11.285" value="0" />
+      <CVvalue name="16.11.286" value="0" />
+      <CVvalue name="16.11.288" value="0" />
+      <CVvalue name="16.11.290" value="0" />
+      <CVvalue name="16.11.291" value="116" />
+      <CVvalue name="16.11.292" value="3" />
+      <CVvalue name="16.11.294" value="100" />
+      <CVvalue name="16.11.296" value="100" />
+      <CVvalue name="16.13.325" value="50" />
+      <CVvalue name="16.13.326" value="0" />
+      <CVvalue name="16.13.328" value="100" />
+      <CVvalue name="16.13.330" value="100" />
+      <CVvalue name="16.13.331" value="104" />
+      <CVvalue name="16.13.332" value="7" />
+      <CVvalue name="16.13.334" value="0" />
+      <CVvalue name="16.13.336" value="0" />
+      <CVvalue name="16.13.337" value="0" />
+      <CVvalue name="16.13.338" value="0" />
+      <CVvalue name="16.13.340" value="0" />
+      <CVvalue name="16.13.342" value="0" />
+      <CVvalue name="16.13.343" value="0" />
+      <CVvalue name="16.13.344" value="0" />
+      <CVvalue name="16.13.346" value="0" />
+      <CVvalue name="16.13.348" value="0" />
+      <CVvalue name="16.13.349" value="0" />
+      <CVvalue name="16.13.350" value="0" />
+      <CVvalue name="16.13.352" value="0" />
+      <CVvalue name="16.13.354" value="0" />
+      <CVvalue name="16.13.355" value="0" />
+      <CVvalue name="16.13.356" value="0" />
+      <CVvalue name="16.13.358" value="0" />
+      <CVvalue name="16.13.360" value="0" />
+      <CVvalue name="16.13.361" value="0" />
+      <CVvalue name="16.13.362" value="0" />
+      <CVvalue name="16.13.364" value="0" />
+      <CVvalue name="16.13.366" value="0" />
+      <CVvalue name="16.13.367" value="0" />
+      <CVvalue name="16.13.368" value="0" />
+      <CVvalue name="16.13.370" value="0" />
+      <CVvalue name="16.13.372" value="0" />
+      <CVvalue name="16.13.373" value="0" />
+      <CVvalue name="16.13.374" value="0" />
+      <CVvalue name="16.13.376" value="0" />
+      <CVvalue name="16.13.378" value="0" />
+      <CVvalue name="16.13.379" value="0" />
+      <CVvalue name="16.13.380" value="0" />
+      <CVvalue name="16.13.382" value="0" />
+      <CVvalue name="16.13.384" value="0" />
+      <CVvalue name="16.13.385" value="50" />
+      <CVvalue name="16.13.386" value="0" />
+      <CVvalue name="16.13.388" value="100" />
+      <CVvalue name="16.13.390" value="100" />
+      <CVvalue name="16.13.391" value="47" />
+      <CVvalue name="16.13.392" value="1" />
+      <CVvalue name="16.13.394" value="0" />
+      <CVvalue name="16.13.396" value="0" />
+      <CVvalue name="16.13.397" value="50" />
+      <CVvalue name="16.13.398" value="0" />
+      <CVvalue name="16.13.400" value="100" />
+      <CVvalue name="16.13.402" value="100" />
+      <CVvalue name="16.13.403" value="47" />
+      <CVvalue name="16.13.404" value="1" />
+      <CVvalue name="16.13.406" value="0" />
+      <CVvalue name="16.13.408" value="0" />
+      <CVvalue name="16.13.409" value="50" />
+      <CVvalue name="16.13.410" value="0" />
+      <CVvalue name="16.13.412" value="100" />
+      <CVvalue name="16.13.414" value="100" />
+      <CVvalue name="16.13.415" value="104" />
+      <CVvalue name="16.13.416" value="7" />
+      <CVvalue name="16.13.418" value="0" />
+      <CVvalue name="16.13.420" value="0" />
+      <CVvalue name="16.13.421" value="0" />
+      <CVvalue name="16.13.422" value="0" />
+      <CVvalue name="16.13.424" value="0" />
+      <CVvalue name="16.13.426" value="0" />
+      <CVvalue name="16.13.427" value="0" />
+      <CVvalue name="16.13.428" value="0" />
+      <CVvalue name="16.13.430" value="0" />
+      <CVvalue name="16.13.432" value="0" />
+      <CVvalue name="16.13.433" value="0" />
+      <CVvalue name="16.13.434" value="0" />
+      <CVvalue name="16.13.436" value="0" />
+      <CVvalue name="16.13.438" value="0" />
+      <CVvalue name="16.13.439" value="0" />
+      <CVvalue name="16.13.440" value="0" />
+      <CVvalue name="16.13.442" value="0" />
+      <CVvalue name="16.13.444" value="0" />
+      <CVvalue name="16.12.341" value="97" />
+      <CVvalue name="16.12.342" value="1" />
+      <CVvalue name="16.12.344" value="20" />
+      <CVvalue name="16.12.346" value="35" />
+      <CVvalue name="16.12.347" value="110" />
+      <CVvalue name="16.12.348" value="0" />
+      <CVvalue name="16.12.350" value="35" />
+      <CVvalue name="16.12.352" value="100" />
+      <CVvalue name="16.12.353" value="110" />
+      <CVvalue name="16.12.354" value="0" />
+      <CVvalue name="16.12.356" value="100" />
+      <CVvalue name="16.12.358" value="35" />
+      <CVvalue name="16.12.359" value="97" />
+      <CVvalue name="16.12.360" value="1" />
+      <CVvalue name="16.12.362" value="35" />
+      <CVvalue name="16.12.364" value="20" />
+      <CVvalue name="16.12.365" value="0" />
+      <CVvalue name="16.12.366" value="0" />
+      <CVvalue name="16.12.368" value="0" />
+      <CVvalue name="16.12.370" value="0" />
+      <CVvalue name="16.12.371" value="0" />
+      <CVvalue name="16.12.372" value="0" />
+      <CVvalue name="16.12.374" value="0" />
+      <CVvalue name="16.12.376" value="0" />
+      <CVvalue name="16.12.377" value="0" />
+      <CVvalue name="16.12.378" value="0" />
+      <CVvalue name="16.12.380" value="0" />
+      <CVvalue name="16.12.382" value="0" />
+      <CVvalue name="16.12.383" value="0" />
+      <CVvalue name="16.12.384" value="0" />
+      <CVvalue name="16.12.386" value="0" />
+      <CVvalue name="16.12.388" value="0" />
+      <CVvalue name="16.12.389" value="0" />
+      <CVvalue name="16.12.390" value="0" />
+      <CVvalue name="16.12.392" value="0" />
+      <CVvalue name="16.12.394" value="0" />
+      <CVvalue name="16.12.395" value="0" />
+      <CVvalue name="16.12.396" value="0" />
+      <CVvalue name="16.12.398" value="0" />
+      <CVvalue name="16.12.400" value="0" />
+      <CVvalue name="16.11.357" value="50" />
+      <CVvalue name="16.11.358" value="0" />
+      <CVvalue name="16.11.360" value="100" />
+      <CVvalue name="16.11.362" value="100" />
+      <CVvalue name="16.11.363" value="47" />
+      <CVvalue name="16.11.364" value="1" />
+      <CVvalue name="16.11.366" value="0" />
+      <CVvalue name="16.11.368" value="0" />
+      <CVvalue name="16.11.369" value="50" />
+      <CVvalue name="16.11.370" value="0" />
+      <CVvalue name="16.11.372" value="100" />
+      <CVvalue name="16.11.374" value="100" />
+      <CVvalue name="16.11.375" value="80" />
+      <CVvalue name="16.11.376" value="15" />
+      <CVvalue name="16.11.378" value="0" />
+      <CVvalue name="16.11.380" value="0" />
+      <CVvalue name="16.11.381" value="0" />
+      <CVvalue name="16.11.382" value="0" />
+      <CVvalue name="16.11.384" value="0" />
+      <CVvalue name="16.11.386" value="0" />
+      <CVvalue name="16.11.387" value="0" />
+      <CVvalue name="16.11.388" value="0" />
+      <CVvalue name="16.11.390" value="0" />
+      <CVvalue name="16.11.392" value="0" />
+      <CVvalue name="16.11.393" value="0" />
+      <CVvalue name="16.11.394" value="0" />
+      <CVvalue name="16.11.396" value="0" />
+      <CVvalue name="16.11.398" value="0" />
+      <CVvalue name="16.11.399" value="0" />
+      <CVvalue name="16.11.400" value="0" />
+      <CVvalue name="16.11.402" value="0" />
+      <CVvalue name="16.11.404" value="0" />
+      <CVvalue name="16.11.405" value="0" />
+      <CVvalue name="16.11.406" value="0" />
+      <CVvalue name="16.11.408" value="0" />
+      <CVvalue name="16.11.410" value="0" />
+      <CVvalue name="16.11.411" value="0" />
+      <CVvalue name="16.11.412" value="0" />
+      <CVvalue name="16.11.414" value="0" />
+      <CVvalue name="16.11.416" value="0" />
+      <CVvalue name="16.13.265" value="104" />
+      <CVvalue name="16.13.266" value="7" />
+      <CVvalue name="16.13.268" value="100" />
+      <CVvalue name="16.13.270" value="100" />
+      <CVvalue name="16.13.271" value="0" />
+      <CVvalue name="16.13.272" value="0" />
+      <CVvalue name="16.13.274" value="0" />
+      <CVvalue name="16.13.276" value="0" />
+      <CVvalue name="16.13.277" value="0" />
+      <CVvalue name="16.13.278" value="0" />
+      <CVvalue name="16.13.280" value="0" />
+      <CVvalue name="16.13.282" value="0" />
+      <CVvalue name="16.13.283" value="0" />
+      <CVvalue name="16.13.284" value="0" />
+      <CVvalue name="16.13.286" value="0" />
+      <CVvalue name="16.13.288" value="0" />
+      <CVvalue name="16.13.289" value="0" />
+      <CVvalue name="16.13.290" value="0" />
+      <CVvalue name="16.13.292" value="0" />
+      <CVvalue name="16.13.294" value="0" />
+      <CVvalue name="16.13.295" value="0" />
+      <CVvalue name="16.13.296" value="0" />
+      <CVvalue name="16.13.298" value="0" />
+      <CVvalue name="16.13.300" value="0" />
+      <CVvalue name="16.13.301" value="0" />
+      <CVvalue name="16.13.302" value="0" />
+      <CVvalue name="16.13.304" value="0" />
+      <CVvalue name="16.13.306" value="0" />
+      <CVvalue name="16.13.307" value="44" />
+      <CVvalue name="16.13.308" value="2" />
+      <CVvalue name="16.13.310" value="0" />
+      <CVvalue name="16.13.312" value="100" />
+      <CVvalue name="16.13.313" value="72" />
+      <CVvalue name="16.13.314" value="1" />
+      <CVvalue name="16.13.316" value="100" />
+      <CVvalue name="16.13.318" value="0" />
+      <CVvalue name="16.13.319" value="104" />
+      <CVvalue name="16.13.320" value="7" />
+      <CVvalue name="16.13.322" value="20" />
+      <CVvalue name="16.13.324" value="20" />
+      <CVvalue name="16.10.433" value="116" />
+      <CVvalue name="16.10.434" value="3" />
+      <CVvalue name="16.10.436" value="30" />
+      <CVvalue name="16.10.438" value="30" />
+      <CVvalue name="16.10.439" value="0" />
+      <CVvalue name="16.10.440" value="0" />
+      <CVvalue name="16.10.442" value="0" />
+      <CVvalue name="16.10.444" value="0" />
+      <CVvalue name="16.10.445" value="0" />
+      <CVvalue name="16.10.446" value="0" />
+      <CVvalue name="16.10.448" value="0" />
+      <CVvalue name="16.10.450" value="0" />
+      <CVvalue name="16.10.451" value="0" />
+      <CVvalue name="16.10.452" value="0" />
+      <CVvalue name="16.10.454" value="0" />
+      <CVvalue name="16.10.456" value="0" />
+      <CVvalue name="16.10.457" value="0" />
+      <CVvalue name="16.10.458" value="0" />
+      <CVvalue name="16.10.460" value="0" />
+      <CVvalue name="16.10.462" value="0" />
+      <CVvalue name="16.10.463" value="0" />
+      <CVvalue name="16.10.464" value="0" />
+      <CVvalue name="16.10.466" value="0" />
+      <CVvalue name="16.10.468" value="0" />
+      <CVvalue name="16.10.469" value="0" />
+      <CVvalue name="16.10.470" value="0" />
+      <CVvalue name="16.10.472" value="0" />
+      <CVvalue name="16.10.474" value="0" />
+      <CVvalue name="16.10.475" value="72" />
+      <CVvalue name="16.10.476" value="1" />
+      <CVvalue name="16.10.478" value="0" />
+      <CVvalue name="16.10.480" value="30" />
+      <CVvalue name="16.10.481" value="72" />
+      <CVvalue name="16.10.482" value="1" />
+      <CVvalue name="16.10.484" value="30" />
+      <CVvalue name="16.10.486" value="0" />
+      <CVvalue name="16.10.487" value="0" />
+      <CVvalue name="16.10.488" value="0" />
+      <CVvalue name="16.10.490" value="0" />
+      <CVvalue name="16.10.492" value="0" />
+      <CVvalue name="16.10.373" value="116" />
+      <CVvalue name="16.10.374" value="3" />
+      <CVvalue name="16.10.376" value="100" />
+      <CVvalue name="16.10.378" value="100" />
+      <CVvalue name="16.10.379" value="0" />
+      <CVvalue name="16.10.380" value="0" />
+      <CVvalue name="16.10.382" value="0" />
+      <CVvalue name="16.10.384" value="0" />
+      <CVvalue name="16.10.385" value="0" />
+      <CVvalue name="16.10.386" value="0" />
+      <CVvalue name="16.10.388" value="0" />
+      <CVvalue name="16.10.390" value="0" />
+      <CVvalue name="16.10.391" value="0" />
+      <CVvalue name="16.10.392" value="0" />
+      <CVvalue name="16.10.394" value="0" />
+      <CVvalue name="16.10.396" value="0" />
+      <CVvalue name="16.10.397" value="0" />
+      <CVvalue name="16.10.398" value="0" />
+      <CVvalue name="16.10.400" value="0" />
+      <CVvalue name="16.10.402" value="0" />
+      <CVvalue name="16.10.403" value="0" />
+      <CVvalue name="16.10.404" value="0" />
+      <CVvalue name="16.10.406" value="0" />
+      <CVvalue name="16.10.408" value="0" />
+      <CVvalue name="16.10.409" value="0" />
+      <CVvalue name="16.10.410" value="0" />
+      <CVvalue name="16.10.412" value="0" />
+      <CVvalue name="16.10.414" value="0" />
+      <CVvalue name="16.10.415" value="44" />
+      <CVvalue name="16.10.416" value="2" />
+      <CVvalue name="16.10.418" value="0" />
+      <CVvalue name="16.10.420" value="100" />
+      <CVvalue name="16.10.421" value="72" />
+      <CVvalue name="16.10.422" value="1" />
+      <CVvalue name="16.10.424" value="100" />
+      <CVvalue name="16.10.426" value="0" />
+      <CVvalue name="16.10.427" value="0" />
+      <CVvalue name="16.10.428" value="0" />
+      <CVvalue name="16.10.430" value="0" />
+      <CVvalue name="16.10.432" value="0" />
+      <CVvalue name="16.11.417" value="125" />
+      <CVvalue name="16.11.418" value="0" />
+      <CVvalue name="16.11.420" value="15" />
+      <CVvalue name="16.11.422" value="30" />
+      <CVvalue name="16.11.423" value="72" />
+      <CVvalue name="16.11.424" value="1" />
+      <CVvalue name="16.11.426" value="40" />
+      <CVvalue name="16.11.428" value="40" />
+      <CVvalue name="16.11.429" value="125" />
+      <CVvalue name="16.11.430" value="0" />
+      <CVvalue name="16.11.432" value="30" />
+      <CVvalue name="16.11.434" value="15" />
+      <CVvalue name="16.11.435" value="0" />
+      <CVvalue name="16.11.436" value="0" />
+      <CVvalue name="16.11.438" value="0" />
+      <CVvalue name="16.11.440" value="0" />
+      <CVvalue name="16.11.441" value="0" />
+      <CVvalue name="16.11.442" value="0" />
+      <CVvalue name="16.11.444" value="0" />
+      <CVvalue name="16.11.446" value="0" />
+      <CVvalue name="16.11.447" value="0" />
+      <CVvalue name="16.11.448" value="0" />
+      <CVvalue name="16.11.450" value="0" />
+      <CVvalue name="16.11.452" value="0" />
+      <CVvalue name="16.11.453" value="0" />
+      <CVvalue name="16.11.454" value="0" />
+      <CVvalue name="16.11.456" value="0" />
+      <CVvalue name="16.11.458" value="0" />
+      <CVvalue name="16.11.459" value="0" />
+      <CVvalue name="16.11.460" value="0" />
+      <CVvalue name="16.11.462" value="0" />
+      <CVvalue name="16.11.464" value="0" />
+      <CVvalue name="16.11.465" value="0" />
+      <CVvalue name="16.11.466" value="0" />
+      <CVvalue name="16.11.468" value="0" />
+      <CVvalue name="16.11.470" value="0" />
+      <CVvalue name="16.11.471" value="0" />
+      <CVvalue name="16.11.472" value="0" />
+      <CVvalue name="16.11.474" value="0" />
+      <CVvalue name="16.11.476" value="0" />
+      <CVvalue name="16.12.281" value="100" />
+      <CVvalue name="16.12.282" value="0" />
+      <CVvalue name="16.12.284" value="5" />
+      <CVvalue name="16.12.286" value="10" />
+      <CVvalue name="16.12.287" value="22" />
+      <CVvalue name="16.12.288" value="1" />
+      <CVvalue name="16.12.290" value="10" />
+      <CVvalue name="16.12.292" value="40" />
+      <CVvalue name="16.12.293" value="120" />
+      <CVvalue name="16.12.294" value="0" />
+      <CVvalue name="16.12.296" value="40" />
+      <CVvalue name="16.12.298" value="100" />
+      <CVvalue name="16.12.299" value="120" />
+      <CVvalue name="16.12.300" value="0" />
+      <CVvalue name="16.12.302" value="100" />
+      <CVvalue name="16.12.304" value="40" />
+      <CVvalue name="16.12.305" value="22" />
+      <CVvalue name="16.12.306" value="1" />
+      <CVvalue name="16.12.308" value="40" />
+      <CVvalue name="16.12.310" value="10" />
+      <CVvalue name="16.12.311" value="100" />
+      <CVvalue name="16.12.312" value="0" />
+      <CVvalue name="16.12.314" value="10" />
+      <CVvalue name="16.12.316" value="5" />
+      <CVvalue name="16.12.317" value="72" />
+      <CVvalue name="16.12.318" value="1" />
+      <CVvalue name="16.12.320" value="5" />
+      <CVvalue name="16.12.322" value="5" />
+      <CVvalue name="16.12.323" value="0" />
+      <CVvalue name="16.12.324" value="0" />
+      <CVvalue name="16.12.326" value="0" />
+      <CVvalue name="16.12.328" value="0" />
+      <CVvalue name="16.12.329" value="0" />
+      <CVvalue name="16.12.330" value="0" />
+      <CVvalue name="16.12.332" value="0" />
+      <CVvalue name="16.12.334" value="0" />
+      <CVvalue name="16.12.335" value="0" />
+      <CVvalue name="16.12.336" value="0" />
+      <CVvalue name="16.12.338" value="0" />
+      <CVvalue name="16.12.340" value="0" />
+      <CVvalue name="16.11.297" value="85" />
+      <CVvalue name="16.11.298" value="5" />
+      <CVvalue name="16.11.300" value="100" />
+      <CVvalue name="16.11.302" value="5" />
+      <CVvalue name="16.11.303" value="100" />
+      <CVvalue name="16.11.304" value="0" />
+      <CVvalue name="16.11.306" value="5" />
+      <CVvalue name="16.11.308" value="5" />
+      <CVvalue name="16.11.309" value="85" />
+      <CVvalue name="16.11.310" value="5" />
+      <CVvalue name="16.11.312" value="5" />
+      <CVvalue name="16.11.314" value="100" />
+      <CVvalue name="16.11.315" value="0" />
+      <CVvalue name="16.11.316" value="0" />
+      <CVvalue name="16.11.318" value="0" />
+      <CVvalue name="16.11.320" value="0" />
+      <CVvalue name="16.11.321" value="0" />
+      <CVvalue name="16.11.322" value="0" />
+      <CVvalue name="16.11.324" value="0" />
+      <CVvalue name="16.11.326" value="0" />
+      <CVvalue name="16.11.327" value="0" />
+      <CVvalue name="16.11.328" value="0" />
+      <CVvalue name="16.11.330" value="0" />
+      <CVvalue name="16.11.332" value="0" />
+      <CVvalue name="16.11.333" value="0" />
+      <CVvalue name="16.11.334" value="0" />
+      <CVvalue name="16.11.336" value="0" />
+      <CVvalue name="16.11.338" value="0" />
+      <CVvalue name="16.11.339" value="0" />
+      <CVvalue name="16.11.340" value="0" />
+      <CVvalue name="16.11.342" value="0" />
+      <CVvalue name="16.11.344" value="0" />
+      <CVvalue name="16.11.345" value="0" />
+      <CVvalue name="16.11.346" value="0" />
+      <CVvalue name="16.11.348" value="0" />
+      <CVvalue name="16.11.350" value="0" />
+      <CVvalue name="16.11.351" value="116" />
+      <CVvalue name="16.11.352" value="3" />
+      <CVvalue name="16.11.354" value="100" />
+      <CVvalue name="16.11.356" value="100" />
+      <CVvalue name="16.10.313" value="116" />
+      <CVvalue name="16.10.314" value="3" />
+      <CVvalue name="16.10.316" value="100" />
+      <CVvalue name="16.10.318" value="100" />
+      <CVvalue name="16.10.319" value="0" />
+      <CVvalue name="16.10.320" value="0" />
+      <CVvalue name="16.10.322" value="0" />
+      <CVvalue name="16.10.324" value="0" />
+      <CVvalue name="16.10.325" value="0" />
+      <CVvalue name="16.10.326" value="0" />
+      <CVvalue name="16.10.328" value="0" />
+      <CVvalue name="16.10.330" value="0" />
+      <CVvalue name="16.10.331" value="0" />
+      <CVvalue name="16.10.332" value="0" />
+      <CVvalue name="16.10.334" value="0" />
+      <CVvalue name="16.10.336" value="0" />
+      <CVvalue name="16.10.337" value="0" />
+      <CVvalue name="16.10.338" value="0" />
+      <CVvalue name="16.10.340" value="0" />
+      <CVvalue name="16.10.342" value="0" />
+      <CVvalue name="16.10.343" value="0" />
+      <CVvalue name="16.10.344" value="0" />
+      <CVvalue name="16.10.346" value="0" />
+      <CVvalue name="16.10.348" value="0" />
+      <CVvalue name="16.10.349" value="0" />
+      <CVvalue name="16.10.350" value="0" />
+      <CVvalue name="16.10.352" value="0" />
+      <CVvalue name="16.10.354" value="0" />
+      <CVvalue name="16.10.355" value="0" />
+      <CVvalue name="16.10.356" value="0" />
+      <CVvalue name="16.10.358" value="0" />
+      <CVvalue name="16.10.360" value="0" />
+      <CVvalue name="16.10.361" value="0" />
+      <CVvalue name="16.10.362" value="0" />
+      <CVvalue name="16.10.364" value="0" />
+      <CVvalue name="16.10.366" value="0" />
+      <CVvalue name="16.10.367" value="116" />
+      <CVvalue name="16.10.368" value="3" />
+      <CVvalue name="16.10.370" value="25" />
+      <CVvalue name="16.10.372" value="25" />
+      <CVvalue name="16.12.401" value="110" />
+      <CVvalue name="16.12.402" value="5" />
+      <CVvalue name="16.12.404" value="0" />
+      <CVvalue name="16.12.406" value="0" />
+      <CVvalue name="16.12.407" value="110" />
+      <CVvalue name="16.12.408" value="0" />
+      <CVvalue name="16.12.410" value="0" />
+      <CVvalue name="16.12.412" value="25" />
+      <CVvalue name="16.12.413" value="85" />
+      <CVvalue name="16.12.414" value="0" />
+      <CVvalue name="16.12.416" value="25" />
+      <CVvalue name="16.12.418" value="100" />
+      <CVvalue name="16.12.419" value="85" />
+      <CVvalue name="16.12.420" value="0" />
+      <CVvalue name="16.12.422" value="100" />
+      <CVvalue name="16.12.424" value="25" />
+      <CVvalue name="16.12.425" value="120" />
+      <CVvalue name="16.12.426" value="0" />
+      <CVvalue name="16.12.428" value="25" />
+      <CVvalue name="16.12.430" value="0" />
+      <CVvalue name="16.12.431" value="0" />
+      <CVvalue name="16.12.432" value="0" />
+      <CVvalue name="16.12.434" value="0" />
+      <CVvalue name="16.12.436" value="0" />
+      <CVvalue name="16.12.437" value="0" />
+      <CVvalue name="16.12.438" value="0" />
+      <CVvalue name="16.12.440" value="0" />
+      <CVvalue name="16.12.442" value="0" />
+      <CVvalue name="16.12.443" value="0" />
+      <CVvalue name="16.12.444" value="0" />
+      <CVvalue name="16.12.446" value="0" />
+      <CVvalue name="16.12.448" value="0" />
+      <CVvalue name="16.12.449" value="0" />
+      <CVvalue name="16.12.450" value="0" />
+      <CVvalue name="16.12.452" value="0" />
+      <CVvalue name="16.12.454" value="0" />
+      <CVvalue name="16.12.455" value="0" />
+      <CVvalue name="16.12.456" value="0" />
+      <CVvalue name="16.12.458" value="0" />
+      <CVvalue name="16.12.460" value="0" />
+      <CVvalue name="16.13.445" value="116" />
+      <CVvalue name="16.13.446" value="3" />
+      <CVvalue name="16.13.448" value="0" />
+      <CVvalue name="16.13.450" value="100" />
+      <CVvalue name="16.13.451" value="116" />
+      <CVvalue name="16.13.452" value="3" />
+      <CVvalue name="16.13.454" value="100" />
+      <CVvalue name="16.13.456" value="0" />
+      <CVvalue name="16.13.457" value="44" />
+      <CVvalue name="16.13.458" value="2" />
+      <CVvalue name="16.13.460" value="0" />
+      <CVvalue name="16.13.462" value="0" />
+      <CVvalue name="16.13.463" value="50" />
+      <CVvalue name="16.13.464" value="0" />
+      <CVvalue name="16.13.466" value="100" />
+      <CVvalue name="16.13.468" value="100" />
+      <CVvalue name="16.13.469" value="47" />
+      <CVvalue name="16.13.470" value="1" />
+      <CVvalue name="16.13.472" value="0" />
+      <CVvalue name="16.13.474" value="0" />
+      <CVvalue name="16.13.475" value="50" />
+      <CVvalue name="16.13.476" value="0" />
+      <CVvalue name="16.13.478" value="100" />
+      <CVvalue name="16.13.480" value="100" />
+      <CVvalue name="16.13.481" value="47" />
+      <CVvalue name="16.13.482" value="1" />
+      <CVvalue name="16.13.484" value="0" />
+      <CVvalue name="16.13.486" value="0" />
+      <CVvalue name="16.13.487" value="0" />
+      <CVvalue name="16.13.488" value="0" />
+      <CVvalue name="16.13.490" value="0" />
+      <CVvalue name="16.13.492" value="0" />
+      <CVvalue name="16.13.493" value="0" />
+      <CVvalue name="16.13.494" value="0" />
+      <CVvalue name="16.13.496" value="0" />
+      <CVvalue name="16.13.498" value="0" />
+      <CVvalue name="16.13.499" value="0" />
+      <CVvalue name="16.13.500" value="0" />
+      <CVvalue name="16.13.502" value="0" />
+      <CVvalue name="16.13.504" value="0" />
+      <CVvalue name="67" value="0" />
+      <CVvalue name="68" value="9" />
+      <CVvalue name="69" value="18" />
+      <CVvalue name="70" value="28" />
+      <CVvalue name="71" value="37" />
+      <CVvalue name="72" value="47" />
+      <CVvalue name="73" value="56" />
+      <CVvalue name="74" value="66" />
+      <CVvalue name="75" value="75" />
+      <CVvalue name="76" value="85" />
+      <CVvalue name="77" value="94" />
+      <CVvalue name="78" value="103" />
+      <CVvalue name="79" value="113" />
+      <CVvalue name="80" value="122" />
+      <CVvalue name="81" value="132" />
+      <CVvalue name="82" value="141" />
+      <CVvalue name="83" value="151" />
+      <CVvalue name="84" value="160" />
+      <CVvalue name="85" value="170" />
+      <CVvalue name="86" value="179" />
+      <CVvalue name="87" value="188" />
+      <CVvalue name="88" value="198" />
+      <CVvalue name="89" value="207" />
+      <CVvalue name="90" value="217" />
+      <CVvalue name="91" value="226" />
+      <CVvalue name="92" value="236" />
+      <CVvalue name="93" value="245" />
+      <CVvalue name="94" value="255" />
+    </values>
+  </locomotive>
+</locomotive-config>

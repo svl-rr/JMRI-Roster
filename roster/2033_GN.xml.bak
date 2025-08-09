@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Dec 22 18:00:33 PST 2023-->
+  <locomotive id="2033 GN" fileName="2033_GN.xml" roadNumber="" roadName="" mfg="" owner="SVL" model="" dccAddress="2033" comment="" developerID="-1" manufacturerID="151" productID="33554498,33554565" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2023-12-23T02:00:33.599+0000</dateUpdated>
+    <decoder model="LokPilot V4.0 DCC" family="ESU LokPilot V4.0" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="2033" longaddress="yes" />
+      <number>2033</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <values>
+      <decoderDef>
+        <varValue item="Vstart" value="3" />
+        <varValue item="Acceleration" value="16" />
+        <varValue item="Deceleration" value="12" />
+        <varValue item="Vhigh" value="255" />
+        <varValue item="Vmid" value="88" />
+        <varValue item="Decoder Version" value="0" />
+        <varValue item="Manufacturer ID" value="151" />
+        <varValue item="Analog Mode Function Status - F1" value="0" />
+        <varValue item="Analog Mode Function Status - F2" value="0" />
+        <varValue item="Analog Mode Function Status - F3" value="0" />
+        <varValue item="Analog Mode Function Status - F4" value="0" />
+        <varValue item="Analog Mode Function Status - F5" value="0" />
+        <varValue item="Analog Mode Function Status - F6" value="0" />
+        <varValue item="Analog Mode Function Status - F7" value="0" />
+        <varValue item="Analog Mode Function Status - F8" value="0" />
+        <varValue item="Analog Mode Function Status - FL" value="1" />
+        <varValue item="Analog Mode Function Status - F9" value="0" />
+        <varValue item="Analog Mode Function Status - F10" value="0" />
+        <varValue item="Analog Mode Function Status - F11" value="0" />
+        <varValue item="Analog Mode Function Status - F12" value="0" />
+        <varValue item="Analog Mode Function Status - F13" value="0" />
+        <varValue item="Analog Mode Function Status - F14" value="0" />
+        <varValue item="Analog Mode Function Status - F15" value="0" />
+        <varValue item="Decoder Lock ID number" value="0" />
+        <varValue item="Preset Lock ID number" value="0" />
+        <varValue item="ABC brake on Asymmetrical DCC - higher voltage on right rail" value="0" />
+        <varValue item="ABC brake on Asymmetrical DCC - higher voltage on left rail" value="0" />
+        <varValue item="Brake on Zimo HLU commands" value="0" />
+        <varValue item="Brake on DC, polarity against direction" value="1" />
+        <varValue item="Brake on DC, polarity same direction" value="1" />
+        <varValue item="Constant Brake Distance on speed step 0" value="0" />
+        <varValue item="RailCom® Channel 1 Address Broadcast" value="1" />
+        <varValue item="RailCom® Channel 2 Data Transmission" value="1" />
+        <varValue item="RailCom® Plus Auto Loco Recognition" value="1" />
+        <varValue item="RailCom® Enable" value="0" />
+        <varValue item="Use Speed Table" value="0" />
+        <varValue item="Index register H" value="16" />
+        <varValue item="Index register L" value="0" />
+        <varValue item="DCC Protocol" value="1" />
+        <varValue item="BEMF" value="1" />
+        <varValue item="Motor PWM Frequency" value="1" />
+        <varValue item="Automatic Speed Step Detection" value="1" />
+        <varValue item="LGB® Function Button Mode" value="0" />
+        <varValue item="ZIMO® Manual Function Mode" value="0" />
+        <varValue item="DC Analog Mode" value="1" />
+        <varValue item="Rate for Blinking Effects" value="20" />
+        <varValue item="Power Pack Maintain Time" value="50" />
+        <varValue item="Remember Current Function States" value="1" />
+        <varValue item="Remember Current Speed" value="1" />
+        <varValue item="ABC mode reduced speed" value="100" />
+        <varValue item="Preserve Driving Direction when Changing from Analog to Digital" value="0" />
+        <varValue item="Decoder Lock Enable" value="0" />
+        <varValue item="Serial User Standard Interface" value="0" />
+        <varValue item="Adaptive Regulation Frequency" value="1" />
+        <varValue item="Stop immediately on speed step 0" value="0" />
+        <varValue item="Start Volts in DC Mode" value="90" />
+        <varValue item="Maximum Speed in DC mode" value="130" />
+        <varValue item="Analog Mode Function Hysteresis" value="15" />
+        <varValue item="Analog Mode Motor Hysteresis" value="5" />
+        <varValue item="Grade Crossing Hold Time" value="80" />
+        <varValue item="ABC voltage detection threshold" value="12" />
+        <varValue item="Deceleration with Dynamic Brake" value="40" />
+        <varValue item="Auto Uncoupling Speed" value="0" />
+        <varValue item="Auto Uncoupling Remove Time" value="0" />
+        <varValue item="Auto Uncoupling Push Time" value="0" />
+        <varValue item="&lt;html&gt;Prime Mover Startup Delay&lt;br&gt;if Virtual Drive Sound Enabled&lt;/html&gt;" value="0" />
+        <varValue item="Constant Brake Time" value="0" />
+        <varValue item="Constant Brake Distance Forward" value="0" />
+        <varValue item="Constant Brake Distance Backward" value="0" />
+        <varValue item="Firmware Build Number" value="0" />
+        <varValue item="Firmware Minor Version" value="0" />
+        <varValue item="Firmware Major Version" value="0" />
+        <varValue item="PICV" value="31" />
+        <varValue item="SICV" value="32" />
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Extended Address" value="2033" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Locomotive Direction In Consist" value="0" />
+        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Consist Address Active For F1" value="0" />
+        <varValue item="Consist Address Active For F2" value="0" />
+        <varValue item="Consist Address Active For F3" value="0" />
+        <varValue item="Consist Address Active For F4" value="0" />
+        <varValue item="Consist Address Active For F5" value="0" />
+        <varValue item="Consist Address Active For F6" value="0" />
+        <varValue item="Consist Address Active For F7" value="0" />
+        <varValue item="Consist Address Active For F8" value="0" />
+        <varValue item="Consist Address Active For F0" value="0" />
+        <varValue item="Consist Address Active For F9" value="0" />
+        <varValue item="Consist Address Active For F10" value="0" />
+        <varValue item="Consist Address Active For F11" value="0" />
+        <varValue item="Consist Address Active For F12" value="0" />
+        <varValue item="Consist Address Active For F13" value="0" />
+        <varValue item="Consist Address Active For F14" value="0" />
+        <varValue item="Consist Address Active For F15" value="0" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Steps" value="1" />
+        <varValue item="Power Source Conversion" value="0" />
+        <varValue item="BEMF Parameter 'I' Slow" value="0" />
+        <varValue item="BEMF Parameter 'K' Slow" value="15" />
+        <varValue item="BEMF Reference Voltage" value="140" />
+        <varValue item="BEMF Parameter 'K'" value="50" />
+        <varValue item="BEMF Parameter 'I'" value="100" />
+        <varValue item="BEMF Control Range" value="255" />
+        <varValue item="BEMF Sampling Period" value="8" />
+        <varValue item="Forward Trim" value="128" />
+        <varValue item="Speed Table" value="1,10,19,29,38,48,57,66,76,85,95,104,113,123,132,142,151,160,170,179,189,198,207,217,226,236,245,255" />
+        <varValue item="Reverse Trim" value="128" />
+        <varValue item="User ID #1 (0-255)" value="0" />
+        <varValue item="User ID #2 (0-255)" value="0" />
+        <varValue item="Product ID" value="0" />
+        <varValue item="(decimal)" value="0" />
+        <varValue item="Serial Number" value="0" />
+        <varValue item="Production Date" value="0" />
+        <varValue item="Production Info" value="0" />
+        <varValue item="Bootcode Build Build Number" value="0" />
+        <varValue item="Bootcode Minor Version" value="0" />
+        <varValue item="Bootcode Major Version" value="0" />
+        <varValue item="Bootcode Date" value="0" />
+        <varValue item="Firmware Build Number" value="0" />
+        <varValue item="Firmware Minor Version" value="0" />
+        <varValue item="Firmware Major Version" value="0" />
+        <varValue item="Firmware Date" value="0" />
+        <varValue item="Firmware Type" value="0" />
+        <varValue item="Loco Name" value="0" />
+        <varValue item="Loco Type" value="0" />
+        <varValue item="Headlight [1] Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="Rearlight [1] Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="AUX1 [1] Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="AUX2 [1] Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="AUX3 Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="AUX4 Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="Headlight [2] Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="Rearlight [2] Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="AUX1 [2] Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="AUX2 [2] Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="AUX5 Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="AUX6 Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="AUX7 Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="AUX8 Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="AUX9 Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+        <varValue item="AUX10 Mode" value="1" />
+        <varValue item="Function Switch On Delay" value="0" />
+        <varValue item="Function Switch Off Delay" value="0" />
+        <varValue item="Function Auto Switch Off" value="0" />
+        <varValue item="Brightness CV" value="31" />
+        <varValue item="Brightness" value="31" />
+        <varValue item="Mode" value="1" />
+        <varValue item="Coupler Force" value="31" />
+        <varValue item="Fan Speed" value="31" />
+        <varValue item="Standing heat" value="31" />
+        <varValue item="Chuff power" value="31" />
+        <varValue item="Duration (speed)" value="31" />
+        <varValue item="Special Function CV 1" value="0" />
+        <varValue item="Fan Acceleration rate" value="0" />
+        <varValue item="Minimum driving heat" value="0" />
+        <varValue item="Position A" value="0" />
+        <varValue item="Fan power" value="0" />
+        <varValue item="Phase Reverse" value="0" />
+        <varValue item="Grade Crossing" value="0" />
+        <varValue item="Rule 17 Fwd" value="0" />
+        <varValue item="Rule 17 Rev" value="0" />
+        <varValue item="Dimmer" value="0" />
+        <varValue item="LED Mode" value="0" />
+        <varValue item="Special Function CV 2" value="0" />
+        <varValue item="Fan Decceleration rate" value="0" />
+        <varValue item="Maximum driving heat" value="0" />
+        <varValue item="Timeout" value="0" />
+        <varValue item="Startup Time" value="0" />
+        <varValue item="Position B" value="0" />
+      </decoderDef>
+      <CVvalue name="2" value="3" />
+      <CVvalue name="3" value="16" />
+      <CVvalue name="4" value="12" />
+      <CVvalue name="5" value="255" />
+      <CVvalue name="6" value="88" />
+      <CVvalue name="7" value="0" />
+      <CVvalue name="8" value="151" />
+      <CVvalue name="13" value="0" />
+      <CVvalue name="14" value="1" />
+      <CVvalue name="15" value="0" />
+      <CVvalue name="16" value="0" />
+      <CVvalue name="27" value="24" />
+      <CVvalue name="28" value="131" />
+      <CVvalue name="29" value="34" />
+      <CVvalue name="31" value="16" />
+      <CVvalue name="32" value="0" />
+      <CVvalue name="47" value="1" />
+      <CVvalue name="49" value="19" />
+      <CVvalue name="50" value="2" />
+      <CVvalue name="112" value="20" />
+      <CVvalue name="113" value="50" />
+      <CVvalue name="122" value="3" />
+      <CVvalue name="123" value="100" />
+      <CVvalue name="124" value="16" />
+      <CVvalue name="245" value="0" />
+      <CVvalue name="125" value="90" />
+      <CVvalue name="126" value="130" />
+      <CVvalue name="129" value="15" />
+      <CVvalue name="130" value="5" />
+      <CVvalue name="132" value="80" />
+      <CVvalue name="134" value="12" />
+      <CVvalue name="179" value="40" />
+      <CVvalue name="246" value="0" />
+      <CVvalue name="247" value="0" />
+      <CVvalue name="248" value="0" />
+      <CVvalue name="252" value="0" />
+      <CVvalue name="253" value="0" />
+      <CVvalue name="254" value="0" />
+      <CVvalue name="255" value="0" />
+      <CVvalue name="0.255.285" value="0" />
+      <CVvalue name="0.255.286" value="0" />
+      <CVvalue name="0.255.287" value="0" />
+      <CVvalue name="0.255.288" value="0" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="199" />
+      <CVvalue name="18" value="241" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="21" value="0" />
+      <CVvalue name="22" value="0" />
+      <CVvalue name="51" value="0" />
+      <CVvalue name="52" value="15" />
+      <CVvalue name="53" value="140" />
+      <CVvalue name="54" value="50" />
+      <CVvalue name="55" value="100" />
+      <CVvalue name="56" value="255" />
+      <CVvalue name="10" value="8" />
+      <CVvalue name="66" value="128" />
+      <CVvalue name="67" value="1" />
+      <CVvalue name="68" value="10" />
+      <CVvalue name="69" value="19" />
+      <CVvalue name="70" value="29" />
+      <CVvalue name="71" value="38" />
+      <CVvalue name="72" value="48" />
+      <CVvalue name="73" value="57" />
+      <CVvalue name="74" value="66" />
+      <CVvalue name="75" value="76" />
+      <CVvalue name="76" value="85" />
+      <CVvalue name="77" value="95" />
+      <CVvalue name="78" value="104" />
+      <CVvalue name="79" value="113" />
+      <CVvalue name="80" value="123" />
+      <CVvalue name="81" value="132" />
+      <CVvalue name="82" value="142" />
+      <CVvalue name="83" value="151" />
+      <CVvalue name="84" value="160" />
+      <CVvalue name="85" value="170" />
+      <CVvalue name="86" value="179" />
+      <CVvalue name="87" value="189" />
+      <CVvalue name="88" value="198" />
+      <CVvalue name="89" value="207" />
+      <CVvalue name="90" value="217" />
+      <CVvalue name="91" value="226" />
+      <CVvalue name="92" value="236" />
+      <CVvalue name="93" value="245" />
+      <CVvalue name="94" value="255" />
+      <CVvalue name="95" value="128" />
+      <CVvalue name="105" value="0" />
+      <CVvalue name="106" value="0" />
+      <CVvalue name="0.255.261" value="0" />
+      <CVvalue name="0.255.262" value="0" />
+      <CVvalue name="0.255.263" value="0" />
+      <CVvalue name="0.255.264" value="0" />
+      <CVvalue name="0.255.265" value="0" />
+      <CVvalue name="0.255.266" value="0" />
+      <CVvalue name="0.255.267" value="0" />
+      <CVvalue name="0.255.268" value="0" />
+      <CVvalue name="0.255.269" value="0" />
+      <CVvalue name="0.255.270" value="0" />
+      <CVvalue name="0.255.271" value="0" />
+      <CVvalue name="0.255.272" value="0" />
+      <CVvalue name="0.255.273" value="0" />
+      <CVvalue name="0.255.274" value="0" />
+      <CVvalue name="0.255.275" value="0" />
+      <CVvalue name="0.255.276" value="0" />
+      <CVvalue name="0.255.277" value="0" />
+      <CVvalue name="0.255.278" value="0" />
+      <CVvalue name="0.255.279" value="0" />
+      <CVvalue name="0.255.280" value="0" />
+      <CVvalue name="0.255.281" value="0" />
+      <CVvalue name="0.255.282" value="0" />
+      <CVvalue name="0.255.283" value="0" />
+      <CVvalue name="0.255.284" value="0" />
+      <CVvalue name="0.255.289" value="0" />
+      <CVvalue name="0.255.290" value="0" />
+      <CVvalue name="0.255.291" value="0" />
+      <CVvalue name="0.255.292" value="0" />
+      <CVvalue name="0.255.293" value="0" />
+      <CVvalue name="0.255.294" value="0" />
+      <CVvalue name="0.255.295" value="0" />
+      <CVvalue name="0.255.296" value="0" />
+      <CVvalue name="1.0.261" value="0" />
+      <CVvalue name="1.0.262" value="0" />
+      <CVvalue name="1.0.263" value="0" />
+      <CVvalue name="1.0.264" value="0" />
+      <CVvalue name="1.0.265" value="0" />
+      <CVvalue name="1.0.266" value="0" />
+      <CVvalue name="1.0.267" value="0" />
+      <CVvalue name="1.0.268" value="0" />
+      <CVvalue name="1.0.269" value="0" />
+      <CVvalue name="1.0.270" value="0" />
+      <CVvalue name="1.0.271" value="0" />
+      <CVvalue name="1.0.272" value="0" />
+      <CVvalue name="1.0.273" value="0" />
+      <CVvalue name="1.0.274" value="0" />
+      <CVvalue name="1.0.275" value="0" />
+      <CVvalue name="1.0.276" value="0" />
+      <CVvalue name="1.0.277" value="0" />
+      <CVvalue name="1.0.278" value="0" />
+      <CVvalue name="1.0.279" value="0" />
+      <CVvalue name="1.0.280" value="0" />
+      <CVvalue name="1.0.281" value="0" />
+      <CVvalue name="1.0.282" value="0" />
+      <CVvalue name="1.0.283" value="0" />
+      <CVvalue name="1.0.284" value="0" />
+      <CVvalue name="1.0.285" value="0" />
+      <CVvalue name="1.0.286" value="0" />
+      <CVvalue name="1.0.287" value="0" />
+      <CVvalue name="1.0.288" value="0" />
+      <CVvalue name="1.0.257" value="0" />
+      <CVvalue name="16.0.259" value="1" />
+      <CVvalue name="16.0.260" value="0" />
+      <CVvalue name="16.0.261" value="0" />
+      <CVvalue name="16.0.262" value="31" />
+      <CVvalue name="16.0.263" value="0" />
+      <CVvalue name="16.0.264" value="0" />
+      <CVvalue name="16.0.267" value="1" />
+      <CVvalue name="16.0.268" value="0" />
+      <CVvalue name="16.0.269" value="0" />
+      <CVvalue name="16.0.270" value="31" />
+      <CVvalue name="16.0.271" value="0" />
+      <CVvalue name="16.0.272" value="0" />
+      <CVvalue name="16.0.275" value="1" />
+      <CVvalue name="16.0.276" value="0" />
+      <CVvalue name="16.0.277" value="0" />
+      <CVvalue name="16.0.278" value="31" />
+      <CVvalue name="16.0.279" value="0" />
+      <CVvalue name="16.0.280" value="0" />
+      <CVvalue name="16.0.283" value="1" />
+      <CVvalue name="16.0.284" value="0" />
+      <CVvalue name="16.0.285" value="0" />
+      <CVvalue name="16.0.286" value="31" />
+      <CVvalue name="16.0.287" value="0" />
+      <CVvalue name="16.0.288" value="0" />
+      <CVvalue name="16.0.291" value="1" />
+      <CVvalue name="16.0.292" value="0" />
+      <CVvalue name="16.0.293" value="0" />
+      <CVvalue name="16.0.294" value="31" />
+      <CVvalue name="16.0.295" value="0" />
+      <CVvalue name="16.0.296" value="0" />
+      <CVvalue name="16.0.299" value="1" />
+      <CVvalue name="16.0.300" value="0" />
+      <CVvalue name="16.0.301" value="0" />
+      <CVvalue name="16.0.302" value="31" />
+      <CVvalue name="16.0.303" value="0" />
+      <CVvalue name="16.0.304" value="0" />
+      <CVvalue name="16.0.355" value="1" />
+      <CVvalue name="16.0.356" value="0" />
+      <CVvalue name="16.0.357" value="0" />
+      <CVvalue name="16.0.358" value="31" />
+      <CVvalue name="16.0.359" value="0" />
+      <CVvalue name="16.0.360" value="0" />
+      <CVvalue name="16.0.363" value="1" />
+      <CVvalue name="16.0.364" value="0" />
+      <CVvalue name="16.0.365" value="0" />
+      <CVvalue name="16.0.366" value="31" />
+      <CVvalue name="16.0.367" value="0" />
+      <CVvalue name="16.0.368" value="0" />
+      <CVvalue name="16.0.371" value="1" />
+      <CVvalue name="16.0.372" value="0" />
+      <CVvalue name="16.0.373" value="0" />
+      <CVvalue name="16.0.374" value="31" />
+      <CVvalue name="16.0.375" value="0" />
+      <CVvalue name="16.0.376" value="0" />
+      <CVvalue name="16.0.379" value="1" />
+      <CVvalue name="16.0.380" value="0" />
+      <CVvalue name="16.0.381" value="0" />
+      <CVvalue name="16.0.382" value="31" />
+      <CVvalue name="16.0.383" value="0" />
+      <CVvalue name="16.0.384" value="0" />
+      <CVvalue name="16.0.307" value="1" />
+      <CVvalue name="16.0.308" value="0" />
+      <CVvalue name="16.0.309" value="0" />
+      <CVvalue name="16.0.310" value="31" />
+      <CVvalue name="16.0.311" value="0" />
+      <CVvalue name="16.0.312" value="0" />
+      <CVvalue name="16.0.315" value="1" />
+      <CVvalue name="16.0.316" value="0" />
+      <CVvalue name="16.0.317" value="0" />
+      <CVvalue name="16.0.318" value="31" />
+      <CVvalue name="16.0.319" value="0" />
+      <CVvalue name="16.0.320" value="0" />
+      <CVvalue name="16.0.323" value="1" />
+      <CVvalue name="16.0.324" value="0" />
+      <CVvalue name="16.0.325" value="0" />
+      <CVvalue name="16.0.326" value="31" />
+      <CVvalue name="16.0.327" value="0" />
+      <CVvalue name="16.0.328" value="0" />
+      <CVvalue name="16.0.331" value="1" />
+      <CVvalue name="16.0.332" value="0" />
+      <CVvalue name="16.0.333" value="0" />
+      <CVvalue name="16.0.334" value="31" />
+      <CVvalue name="16.0.335" value="0" />
+      <CVvalue name="16.0.336" value="0" />
+      <CVvalue name="16.0.339" value="1" />
+      <CVvalue name="16.0.340" value="0" />
+      <CVvalue name="16.0.341" value="0" />
+      <CVvalue name="16.0.342" value="31" />
+      <CVvalue name="16.0.343" value="0" />
+      <CVvalue name="16.0.344" value="0" />
+      <CVvalue name="16.0.347" value="1" />
+      <CVvalue name="16.0.348" value="0" />
+      <CVvalue name="16.0.349" value="0" />
+      <CVvalue name="16.0.350" value="31" />
+      <CVvalue name="16.0.351" value="0" />
+      <CVvalue name="16.0.352" value="0" />
+    </values>
+  </locomotive>
+</locomotive-config>

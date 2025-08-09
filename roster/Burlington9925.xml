@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 3.6-r24520 on Fri Jul 17 20:28:17 PDT 2015 $Id: XmlFile.java 22821 2013-02-25 01:18:12Z rhwood $-->
+  <locomotive id="Burlington9925" fileName="Burlington9925.xml" roadNumber="9925" roadName="Burlington" mfg="Walthers" owner="Donovan" model="E6" dccAddress="9921" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>Jul 17, 2015 8:28:17 PM</dateUpdated>
+    <decoder model="P2k E6 w/Mars" family="QSI Diesel Ver. 7" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="9921" longaddress="yes" />
+      <number>9921</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels>
+      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Fans</functionlabel>
+      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">Dynamic</functionlabel>
+      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">Doppler</functionlabel>
+      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Squeal</functionlabel>
+      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Heavy Load</functionlabel>
+      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Status</functionlabel>
+      <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Number Board</functionlabel>
+      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Cab Light</functionlabel>
+    </functionlabels>
+    <values>
+      <decoderDef>
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Vstart" value="32" />
+        <varValue item="Acceleration Rate" value="0" />
+        <varValue item="Deceleration Rate" value="0" />
+        <varValue item="Max Volts" value="1" />
+        <varValue item="Manufacturer Version No" value="7" />
+        <varValue item="Manufacturer ID" value="113" />
+        <varValue item="Packet Time-out Value" value="0" />
+        <varValue item="Extended Address" value="9921" />
+        <varValue item="Consist Address" value="0" />
+        <varValue item="Consist Direction" value="0" />
+        <varValue item="Consist Address Active For F1" value="0" />
+        <varValue item="Consist Address Active For F2" value="0" />
+        <varValue item="Consist Address Active For F3" value="0" />
+        <varValue item="Consist Address Active For F4" value="0" />
+        <varValue item="Consist Address Active For F5" value="0" />
+        <varValue item="Consist Address Active For F6" value="0" />
+        <varValue item="Consist Address Active For F7" value="0" />
+        <varValue item="Consist Address Active For F8" value="0" />
+        <varValue item="Consist Address Active For FL in Forward" value="0" />
+        <varValue item="Consist Address Active For FL in Reverse" value="0" />
+        <varValue item="Consist Address Active For F9" value="0" />
+        <varValue item="Consist Address Active For F10" value="0" />
+        <varValue item="Consist Address Active For F11" value="0" />
+        <varValue item="Consist Address Active For F12" value="0" />
+        <varValue item="Acceleration Adjustment" value="0" />
+        <varValue item="Acceleration Adjustment Sign" value="0" />
+        <varValue item="Deceleration Adjustment" value="0" />
+        <varValue item="Deceleration Adjustment Sign" value="0" />
+        <varValue item="Quantum Speed Table" value="1" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="FL Location" value="1" />
+        <varValue item="Power Source Conversion" value="0" />
+        <varValue item="Speed Table Definition" value="0" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="FL(f) controls output 1" value="1" />
+        <varValue item="FL(f) controls output 2" value="1" />
+        <varValue item="FL(f) controls output 3" value="0" />
+        <varValue item="FL(f) controls output 4" value="0" />
+        <varValue item="FL(f) controls output 5" value="0" />
+        <varValue item="FL(f) controls output 6" value="0" />
+        <varValue item="FL(f) controls output 7" value="0" />
+        <varValue item="FL(f) controls output 8" value="0" />
+        <varValue item="FL(r) controls output 1" value="1" />
+        <varValue item="FL(r) controls output 2" value="1" />
+        <varValue item="FL(r) controls output 3" value="0" />
+        <varValue item="FL(r) controls output 4" value="0" />
+        <varValue item="FL(r) controls output 5" value="0" />
+        <varValue item="FL(r) controls output 6" value="0" />
+        <varValue item="FL(r) controls output 7" value="0" />
+        <varValue item="FL(r) controls output 8" value="0" />
+        <varValue item="F1 controls output 1" value="0" />
+        <varValue item="F1 controls output 2" value="0" />
+        <varValue item="F1 controls output 3" value="1" />
+        <varValue item="F1 controls output 4" value="0" />
+        <varValue item="F1 controls output 5" value="0" />
+        <varValue item="F1 controls output 6" value="0" />
+        <varValue item="F1 controls output 7" value="0" />
+        <varValue item="F1 controls output 8" value="0" />
+        <varValue item="F2 controls output 1" value="0" />
+        <varValue item="F2 controls output 2" value="0" />
+        <varValue item="F2 controls output 3" value="0" />
+        <varValue item="F2 controls output 4" value="1" />
+        <varValue item="F2 controls output 5" value="0" />
+        <varValue item="F2 controls output 6" value="0" />
+        <varValue item="F2 controls output 7" value="0" />
+        <varValue item="F2 controls output 8" value="0" />
+        <varValue item="F3 controls output 1" value="0" />
+        <varValue item="F3 controls output 2" value="0" />
+        <varValue item="F3 controls output 3" value="0" />
+        <varValue item="F3 controls output 4" value="0" />
+        <varValue item="F3 controls output 5" value="1" />
+        <varValue item="F3 controls output 6" value="0" />
+        <varValue item="F3 controls output 7" value="0" />
+        <varValue item="F3 controls output 8" value="0" />
+        <varValue item="F4 controls output 4" value="0" />
+        <varValue item="F4 controls output 5" value="0" />
+        <varValue item="F4 controls output 6" value="1" />
+        <varValue item="F4 controls output 7" value="0" />
+        <varValue item="F4 controls output 8" value="0" />
+        <varValue item="F4 controls output 9" value="0" />
+        <varValue item="F4 controls output 10" value="0" />
+        <varValue item="F4 controls output 11" value="0" />
+        <varValue item="F5 controls output 4" value="0" />
+        <varValue item="F5 controls output 5" value="0" />
+        <varValue item="F5 controls output 6" value="0" />
+        <varValue item="F5 controls output 7" value="1" />
+        <varValue item="F5 controls output 8" value="0" />
+        <varValue item="F5 controls output 9" value="0" />
+        <varValue item="F5 controls output 10" value="0" />
+        <varValue item="F5 controls output 11" value="0" />
+        <varValue item="F6 controls output 4" value="0" />
+        <varValue item="F6 controls output 5" value="0" />
+        <varValue item="F6 controls output 6" value="0" />
+        <varValue item="F6 controls output 7" value="0" />
+        <varValue item="F6 controls output 8" value="1" />
+        <varValue item="F6 controls output 9" value="0" />
+        <varValue item="F6 controls output 10" value="0" />
+        <varValue item="F6 controls output 11" value="0" />
+        <varValue item="F7 controls output 4" value="0" />
+        <varValue item="F7 controls output 5" value="0" />
+        <varValue item="F7 controls output 6" value="0" />
+        <varValue item="F7 controls output 7" value="0" />
+        <varValue item="F7 controls output 8" value="0" />
+        <varValue item="F7 controls output 9" value="1" />
+        <varValue item="F7 controls output 10" value="0" />
+        <varValue item="F7 controls output 11" value="0" />
+        <varValue item="F8 controls output 4" value="0" />
+        <varValue item="F8 controls output 5" value="0" />
+        <varValue item="F8 controls output 6" value="0" />
+        <varValue item="F8 controls output 7" value="0" />
+        <varValue item="F8 controls output 8" value="0" />
+        <varValue item="F8 controls output 9" value="0" />
+        <varValue item="F8 controls output 10" value="1" />
+        <varValue item="F8 controls output 11" value="0" />
+        <varValue item="F9 controls output 7" value="0" />
+        <varValue item="F9 controls output 8" value="0" />
+        <varValue item="F9 controls output 9" value="0" />
+        <varValue item="F9 controls output 10" value="0" />
+        <varValue item="F9 controls output 11" value="1" />
+        <varValue item="F9 controls output 12" value="0" />
+        <varValue item="F9 controls output 13" value="0" />
+        <varValue item="F9 controls output 14" value="0" />
+        <varValue item="F10 controls output 7" value="0" />
+        <varValue item="F10 controls output 8" value="0" />
+        <varValue item="F10 controls output 9" value="0" />
+        <varValue item="F10 controls output 10" value="0" />
+        <varValue item="F10 controls output 11" value="0" />
+        <varValue item="F10 controls output 12" value="1" />
+        <varValue item="F10 controls output 13" value="0" />
+        <varValue item="F10 controls output 14" value="0" />
+        <varValue item="F11 controls output 7" value="0" />
+        <varValue item="F11 controls output 8" value="0" />
+        <varValue item="F11 controls output 9" value="0" />
+        <varValue item="F11 controls output 10" value="0" />
+        <varValue item="F11 controls output 11" value="0" />
+        <varValue item="F11 controls output 12" value="0" />
+        <varValue item="F11 controls output 13" value="1" />
+        <varValue item="F11 controls output 14" value="0" />
+        <varValue item="F12 controls output 7" value="0" />
+        <varValue item="F12 controls output 8" value="0" />
+        <varValue item="F12 controls output 9" value="0" />
+        <varValue item="F12 controls output 10" value="0" />
+        <varValue item="F12 controls output 11" value="0" />
+        <varValue item="F12 controls output 12" value="0" />
+        <varValue item="F12 controls output 13" value="0" />
+        <varValue item="F12 controls output 14" value="1" />
+        <varValue item="Primary Index" value="0" />
+        <varValue item="Secondary Index" value="0" />
+        <varValue item="Programming Verbal Acknowledgement" value="1" />
+        <varValue item="CV Numeric Readout" value="0" />
+        <varValue item="Verbal CV Inquiry" value="0" />
+        <varValue item="Forward Trim" value="128" />
+        <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
+        <varValue item="Reverse Trim" value="128" />
+        <varValue item="PICV" value="49" />
+        <varValue item="SICV" value="50" />
+        <varValue item="Minor Version" value="26" />
+        <varValue item="System Volume" value="127" />
+        <varValue item="Mute Volume" value="0" />
+        <varValue item="Horn Triggered Doppler" value="1" />
+        <varValue item="Alt Horn Selection Feedback" value="0" />
+        <varValue item="Heavy Load Feedback" value="0" />
+        <varValue item="Auto Mute Timeout" value="0" />
+        <varValue item="Horn" value="11" />
+        <varValue item="Bell" value="11" />
+        <varValue item="Motor" value="11" />
+        <varValue item="Motor2" value="11" />
+        <varValue item="Air Pump" value="11" />
+        <varValue item="Cooling Fan" value="11" />
+        <varValue item="Long Air Let-off" value="11" />
+        <varValue item="Short Air Let-off" value="11" />
+        <varValue item="Squealing Brakes" value="11" />
+        <varValue item="Generator" value="11" />
+        <varValue item="Dynamic Brakes" value="8" />
+        <varValue item="Coupler Sounds" value="11" />
+        <varValue item="Air Brakes" value="11" />
+        <varValue item="Output 1 - Forward/Reverse Only" value="22" />
+        <varValue item=" - Neutral Only" value="21" />
+        <varValue item="Output 2 - Forward/Reverse Only" value="22" />
+        <varValue item=" - Neutral Only" value="21" />
+        <varValue item="Output 3 - Forward/Reverse Only" value="3" />
+        <varValue item=" - Neutral Only" value="3" />
+        <varValue item="Output 4 - Forward/Reverse Only" value="1" />
+        <varValue item=" - Neutral Only" value="1" />
+        <varValue item="Output 5 - Forward/Reverse Only" value="29" />
+        <varValue item=" - Neutral Only" value="28" />
+        <varValue item="Output 6 - Forward/Reverse Only" value="5" />
+        <varValue item=" - Neutral Only" value="5" />
+        <varValue item="Output 7 - Forward/Reverse Only" value="4" />
+        <varValue item=" - Neutral Only" value="4" />
+        <varValue item="Output 8 - Forward/Reverse Only" value="9" />
+        <varValue item=" - Neutral Only" value="24" />
+        <varValue item="Output 9 - Forward/Reverse Only" value="31" />
+        <varValue item=" - Neutral Only" value="6" />
+        <varValue item="Output 10 - Forward/Reverse Only" value="8" />
+        <varValue item=" - Neutral Only" value="8" />
+        <varValue item="Output 11 - Forward/Reverse Only" value="28" />
+        <varValue item=" - Neutral Only" value="25" />
+        <varValue item="Output 12 - Forward/Reverse Only" value="27" />
+        <varValue item=" - Neutral Only" value="26" />
+        <varValue item="Output 13 - Forward/Reverse Only" value="23" />
+        <varValue item=" - Neutral Only" value="22" />
+        <varValue item="Output 14 - Forward/Reverse Only" value="24" />
+        <varValue item=" - Neutral Only" value="23" />
+        <varValue item="Output 15" value="7" />
+        <varValue item="Output 16" value="7" />
+        <varValue item="Output 17" value="7" />
+        <varValue item="Output 18" value="7" />
+        <varValue item="Output 19" value="7" />
+        <varValue item="Output 20" value="7" />
+        <varValue item="Output 21" value="7" />
+        <varValue item="Output 22" value="7" />
+        <varValue item="Output 23" value="7" />
+        <varValue item="Output 24" value="7" />
+        <varValue item="Output 25" value="7" />
+        <varValue item="Output 26" value="7" />
+        <varValue item="Output 27" value="7" />
+        <varValue item="Output 28" value="7" />
+        <varValue item="Output 29" value="7" />
+        <varValue item="Output 30" value="7" />
+        <varValue item="Max Bell" value="2" />
+        <varValue item="Bell Select" value="1" />
+        <varValue item="Automatic Bell" value="0" />
+        <varValue item="Automatic Bell Hold Time" value="5" />
+        <varValue item="Speed Steps per Notch" value="10" />
+        <varValue item="Headlight Initial State" value="1" />
+        <varValue item="Auto Headlight FWD" value="2" />
+        <varValue item="Auto Headlight NFF" value="1" />
+        <varValue item="Auto Headlight REV" value="1" />
+        <varValue item="Auto Headlight NFR" value="1" />
+        <varValue item="Reverse Light Initial State" value="1" />
+        <varValue item="Auto Reverse Light FWD" value="1" />
+        <varValue item="Auto Reverse Light NFF" value="1" />
+        <varValue item="Auto Reverse Light REV" value="2" />
+        <varValue item="Auto Reverse Light NFR" value="1" />
+        <varValue item="Mars Light Initial State" value="1" />
+        <varValue item="Auto Mars Light FWD" value="3" />
+        <varValue item="Auto Mars Light NFF" value="1" />
+        <varValue item="Auto Mars Light REV" value="1" />
+        <varValue item="Auto Mars Light NFR" value="1" />
+        <varValue item="Mars Light Period" value="100" />
+        <varValue item="Mars Light Dim Intensity" value="32" />
+        <varValue item="Mars Light Min Intensity" value="4" />
+        <varValue item="Mars Light Max Intensity" value="255" />
+        <varValue item="Mars Light Mid Intensity" value="32" />
+        <varValue item="Front Number Board Lights Initial State" value="1" />
+        <varValue item="Auto Front Number Board Lights FWD" value="1" />
+        <varValue item="Auto Front Number Board Lights NFF" value="1" />
+        <varValue item="Auto Front Number Board Lights REV" value="1" />
+        <varValue item="Auto Front Number Board Lights NFR" value="1" />
+        <varValue item="Headlight" value="1" />
+        <varValue item="Rear Light" value="1" />
+        <varValue item="Mars Light" value="1" />
+        <varValue item="Rear Mars Light" value="1" />
+        <varValue item="Ditch Lights" value="1" />
+        <varValue item="Rear Ditch Lights" value="1" />
+        <varValue item="Front Overhead Beacon" value="1" />
+        <varValue item="Rear Overhead Beacon" value="1" />
+        <varValue item="Front Number Board Lights" value="0" />
+        <varValue item="Rear Number Board Lights" value="0" />
+        <varValue item="Front Marker Lights" value="0" />
+        <varValue item="Rear Marker Lights" value="0" />
+        <varValue item="Front Step Lights" value="0" />
+        <varValue item="Rear Step Lights" value="0" />
+        <varValue item="Front Cab Lights" value="0" />
+        <varValue item="Rear Cab Lights" value="0" />
+        <varValue item="Multi Auto Lights 2, Headlight" value="0" />
+        <varValue item="Multi Auto Lights 2, Rear Light" value="0" />
+        <varValue item="Multi Auto Lights 2, Mars Light" value="0" />
+        <varValue item="Multi Auto Lights 2, Rear Mars Light" value="0" />
+        <varValue item="Multi Auto Lights 2, Ditch Lights" value="0" />
+        <varValue item="Multi Auto Lights 2, Rear Ditch Lights" value="0" />
+        <varValue item="Multi Auto Lights 2, Front Overhead Beacon" value="0" />
+        <varValue item="Multi Auto Lights 2, Rear Overhead Beacon" value="0" />
+        <varValue item="Multi Auto Lights 2, Front Number Board Lights" value="1" />
+        <varValue item="Multi Auto Lights 2, Rear Number Board Lights" value="1" />
+        <varValue item="Multi Auto Lights 2, Front Marker Lights" value="1" />
+        <varValue item="Multi Auto Lights 2, Rear Marker Lights" value="1" />
+        <varValue item="Multi Auto Lights 2, Front Step Lights" value="1" />
+        <varValue item="Multi Auto Lights 2, Rear Step Lights" value="1" />
+        <varValue item="Multi Auto Lights 2, Front Cab Lights" value="0" />
+        <varValue item="Multi Auto Lights 2, Rear Cab Lights" value="0" />
+        <varValue item="Multi Auto Lights 3, Headlight" value="0" />
+        <varValue item="Multi Auto Lights 3, Rear Light" value="0" />
+        <varValue item="Multi Auto Lights 3, Mars Light" value="0" />
+        <varValue item="Multi Auto Lights 3, Rear Mars Light" value="0" />
+        <varValue item="Multi Auto Lights 3, Ditch Lights" value="0" />
+        <varValue item="Multi Auto Lights 3, Rear Ditch Lights" value="0" />
+        <varValue item="Multi Auto Lights 3, Front Overhead Beacon" value="0" />
+        <varValue item="Multi Auto Lights 3, Rear Overhead Beacon" value="0" />
+        <varValue item="Multi Auto Lights 3, Front Number Board Lights" value="0" />
+        <varValue item="Multi Auto Lights 3, Rear Number Board Lights" value="0" />
+        <varValue item="Multi Auto Lights 3, Front Marker Lights" value="0" />
+        <varValue item="Multi Auto Lights 3, Rear Marker Lights" value="0" />
+        <varValue item="Multi Auto Lights 3, Front Step Lights" value="0" />
+        <varValue item="Multi Auto Lights 3, Rear Step Lights" value="0" />
+        <varValue item="Multi Auto Lights 3, Front Cab Lights" value="1" />
+        <varValue item="Multi Auto Lights 3, Rear Cab Lights" value="1" />
+        <varValue item="Crossing Blast 1" value="30" />
+        <varValue item="Crossing Blast 1 Hoot/Fancy Ending" value="0" />
+        <varValue item="Crossing Silence 1" value="15" />
+        <varValue item="Crossing Blast 2" value="30" />
+        <varValue item="Crossing Blast 2 Hoot/Fancy Ending" value="0" />
+        <varValue item="Crossing Silence 2" value="15" />
+        <varValue item="Crossing Blast 3" value="10" />
+        <varValue item="Crossing Blast 3 Hoot/Fancy Ending" value="0" />
+        <varValue item="Crossing Silence 3" value="15" />
+        <varValue item="Crossing Blast 4" value="30" />
+        <varValue item="Crossing Blast 4 Hoot/fFancy Ending" value="0" />
+        <varValue item="Status Report MPH" value="1" />
+        <varValue item="Status Report BEMF" value="0" />
+        <varValue item="Status Report PWM" value="0" />
+        <varValue item="Status Report Temp" value="0" />
+        <varValue item="Status Report Miles" value="0" />
+        <varValue item="Status Report Volts" value="0" />
+        <varValue item="Sounds on Power Up" value="0" />
+        <varValue item="Units" value="0" />
+        <varValue item="Reed Switch" value="0" />
+        <varValue item="Throttle Mode" value="1" />
+        <varValue item="RTC Minimum BEMF" value="2" />
+        <varValue item="BEMF to SMPH trim" value="128" />
+        <varValue item="BEMF to SMPH trim" value="128" />
+        <varValue item="Very Low Speed Proportional Gain" value="15" />
+        <varValue item="Very Low Speed Differential Gain" value="106" />
+        <varValue item="Low Speed Proportional Gain" value="10" />
+        <varValue item="Low Speed Differential Gain" value="35" />
+        <varValue item="Medium Speed Proportional Gain" value="10" />
+        <varValue item="Medium Speed Differential Gain" value="35" />
+        <varValue item="High Speed Proportional Gain" value="10" />
+        <varValue item="High Speed Differential Gain" value="35" />
+        <varValue item="Hardware Profile High Byte" value="4" />
+        <varValue item="Hardware Low Byte" value="87" />
+        <varValue item="Product Model High Byte" value="0" />
+        <varValue item="Product Model Low Byte" value="107" />
+        <varValue item="Firmware Build" value="1" />
+        <varValue item="Firmware Build Date.Month" value="5" />
+        <varValue item="Firmware Build Date.Day" value="13" />
+        <varValue item="Firmware Build Date.Year" value="7" />
+        <varValue item="Sound Set" value="1" />
+        <varValue item="Product Model" value="107" />
+        <varValue item="Hardware Profile" value="1111" />
+        <varValue item="Play Product Identifier" value="0" />
+        <varValue item="Play Firmware Version" value="1" />
+        <varValue item="Play Firmware Build Date" value="2" />
+        <varValue item="Play Hardware Profile" value="3" />
+        <varValue item="Play Sound Set" value="4" />
+      </decoderDef>
+      <CVvalue name="1" value="3" />
+      <CVvalue name="2" value="32" />
+      <CVvalue name="3" value="0" />
+      <CVvalue name="4" value="0" />
+      <CVvalue name="5" value="1" />
+      <CVvalue name="7" value="7" />
+      <CVvalue name="8" value="113" />
+      <CVvalue name="11" value="0" />
+      <CVvalue name="17" value="230" />
+      <CVvalue name="18" value="193" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="21" value="0" />
+      <CVvalue name="22" value="0" />
+      <CVvalue name="23" value="0" />
+      <CVvalue name="24" value="0" />
+      <CVvalue name="25" value="2" />
+      <CVvalue name="29" value="34" />
+      <CVvalue name="33" value="3" />
+      <CVvalue name="34" value="3" />
+      <CVvalue name="35" value="4" />
+      <CVvalue name="36" value="8" />
+      <CVvalue name="37" value="16" />
+      <CVvalue name="38" value="4" />
+      <CVvalue name="39" value="8" />
+      <CVvalue name="40" value="16" />
+      <CVvalue name="41" value="32" />
+      <CVvalue name="42" value="64" />
+      <CVvalue name="43" value="16" />
+      <CVvalue name="44" value="32" />
+      <CVvalue name="45" value="64" />
+      <CVvalue name="46" value="128" />
+      <CVvalue name="49" value="0" />
+      <CVvalue name="50" value="0" />
+      <CVvalue name="62" value="1" />
+      <CVvalue name="64" value="0" />
+      <CVvalue name="66" value="128" />
+      <CVvalue name="67" value="0" />
+      <CVvalue name="68" value="9" />
+      <CVvalue name="69" value="18" />
+      <CVvalue name="70" value="28" />
+      <CVvalue name="71" value="37" />
+      <CVvalue name="72" value="47" />
+      <CVvalue name="73" value="56" />
+      <CVvalue name="74" value="66" />
+      <CVvalue name="75" value="75" />
+      <CVvalue name="76" value="85" />
+      <CVvalue name="77" value="94" />
+      <CVvalue name="78" value="103" />
+      <CVvalue name="79" value="113" />
+      <CVvalue name="80" value="122" />
+      <CVvalue name="81" value="132" />
+      <CVvalue name="82" value="141" />
+      <CVvalue name="83" value="151" />
+      <CVvalue name="84" value="160" />
+      <CVvalue name="85" value="170" />
+      <CVvalue name="86" value="179" />
+      <CVvalue name="87" value="188" />
+      <CVvalue name="88" value="198" />
+      <CVvalue name="89" value="207" />
+      <CVvalue name="90" value="217" />
+      <CVvalue name="91" value="226" />
+      <CVvalue name="92" value="236" />
+      <CVvalue name="93" value="245" />
+      <CVvalue name="94" value="255" />
+      <CVvalue name="95" value="128" />
+      <indexedCVvalue name="56.254.6" piCv="49" piVal="254" siCv="50" siVal="6" iCv="56" value="26" />
+      <indexedCVvalue name="51.0" piCv="49" piVal="0" siCv="50" siVal="-1" iCv="51" value="127" />
+      <indexedCVvalue name="51.1" piCv="49" piVal="1" siCv="50" siVal="-1" iCv="51" value="0" />
+      <indexedCVvalue name="51.2" piCv="49" piVal="2" siCv="50" siVal="-1" iCv="51" value="1" />
+      <indexedCVvalue name="51.5" piCv="49" piVal="5" siCv="50" siVal="-1" iCv="51" value="0" />
+      <indexedCVvalue name="52.0" piCv="49" piVal="0" siCv="50" siVal="-1" iCv="52" value="11" />
+      <indexedCVvalue name="52.8" piCv="49" piVal="8" siCv="50" siVal="-1" iCv="52" value="11" />
+      <indexedCVvalue name="52.10" piCv="49" piVal="10" siCv="50" siVal="-1" iCv="52" value="11" />
+      <indexedCVvalue name="52.11" piCv="49" piVal="11" siCv="50" siVal="-1" iCv="52" value="11" />
+      <indexedCVvalue name="52.16" piCv="49" piVal="16" siCv="50" siVal="-1" iCv="52" value="11" />
+      <indexedCVvalue name="52.19" piCv="49" piVal="19" siCv="50" siVal="-1" iCv="52" value="11" />
+      <indexedCVvalue name="52.21" piCv="49" piVal="21" siCv="50" siVal="-1" iCv="52" value="11" />
+      <indexedCVvalue name="52.22" piCv="49" piVal="22" siCv="50" siVal="-1" iCv="52" value="11" />
+      <indexedCVvalue name="52.24" piCv="49" piVal="24" siCv="50" siVal="-1" iCv="52" value="11" />
+      <indexedCVvalue name="52.26" piCv="49" piVal="26" siCv="50" siVal="-1" iCv="52" value="11" />
+      <indexedCVvalue name="52.28" piCv="49" piVal="28" siCv="50" siVal="-1" iCv="52" value="8" />
+      <indexedCVvalue name="52.34" piCv="49" piVal="34" siCv="50" siVal="-1" iCv="52" value="11" />
+      <indexedCVvalue name="52.37" piCv="49" piVal="37" siCv="50" siVal="-1" iCv="52" value="11" />
+      <indexedCVvalue name="53.1.0" piCv="49" piVal="1" siCv="50" siVal="0" iCv="53" value="136" />
+      <indexedCVvalue name="53.1.1" piCv="49" piVal="1" siCv="50" siVal="1" iCv="53" value="136" />
+      <indexedCVvalue name="53.2.0" piCv="49" piVal="2" siCv="50" siVal="0" iCv="53" value="136" />
+      <indexedCVvalue name="53.2.1" piCv="49" piVal="2" siCv="50" siVal="1" iCv="53" value="136" />
+      <indexedCVvalue name="53.3.0" piCv="49" piVal="3" siCv="50" siVal="0" iCv="53" value="3" />
+      <indexedCVvalue name="53.3.1" piCv="49" piVal="3" siCv="50" siVal="1" iCv="53" value="3" />
+      <indexedCVvalue name="53.4.0" piCv="49" piVal="4" siCv="50" siVal="0" iCv="53" value="1" />
+      <indexedCVvalue name="53.4.1" piCv="49" piVal="4" siCv="50" siVal="1" iCv="53" value="1" />
+      <indexedCVvalue name="53.5.0" piCv="49" piVal="5" siCv="50" siVal="0" iCv="53" value="211" />
+      <indexedCVvalue name="53.5.1" piCv="49" piVal="5" siCv="50" siVal="1" iCv="53" value="211" />
+      <indexedCVvalue name="53.6.0" piCv="49" piVal="6" siCv="50" siVal="0" iCv="53" value="8" />
+      <indexedCVvalue name="53.6.1" piCv="49" piVal="6" siCv="50" siVal="1" iCv="53" value="8" />
+      <indexedCVvalue name="53.7.0" piCv="49" piVal="7" siCv="50" siVal="0" iCv="53" value="5" />
+      <indexedCVvalue name="53.7.1" piCv="49" piVal="7" siCv="50" siVal="1" iCv="53" value="5" />
+      <indexedCVvalue name="53.8.0" piCv="49" piVal="8" siCv="50" siVal="0" iCv="53" value="65" />
+      <indexedCVvalue name="53.8.1" piCv="49" piVal="8" siCv="50" siVal="1" iCv="53" value="144" />
+      <indexedCVvalue name="53.9.0" piCv="49" piVal="9" siCv="50" siVal="0" iCv="53" value="216" />
+      <indexedCVvalue name="53.9.1" piCv="49" piVal="9" siCv="50" siVal="1" iCv="53" value="9" />
+      <indexedCVvalue name="53.10.0" piCv="49" piVal="10" siCv="50" siVal="0" iCv="53" value="64" />
+      <indexedCVvalue name="53.10.1" piCv="49" piVal="10" siCv="50" siVal="1" iCv="53" value="64" />
+      <indexedCVvalue name="53.11.0" piCv="49" piVal="11" siCv="50" siVal="0" iCv="53" value="179" />
+      <indexedCVvalue name="53.11.1" piCv="49" piVal="11" siCv="50" siVal="1" iCv="53" value="145" />
+      <indexedCVvalue name="53.12.0" piCv="49" piVal="12" siCv="50" siVal="0" iCv="53" value="178" />
+      <indexedCVvalue name="53.12.1" piCv="49" piVal="12" siCv="50" siVal="1" iCv="53" value="178" />
+      <indexedCVvalue name="53.13.0" piCv="49" piVal="13" siCv="50" siVal="0" iCv="53" value="137" />
+      <indexedCVvalue name="53.13.1" piCv="49" piVal="13" siCv="50" siVal="1" iCv="53" value="137" />
+      <indexedCVvalue name="53.14.0" piCv="49" piVal="14" siCv="50" siVal="0" iCv="53" value="138" />
+      <indexedCVvalue name="53.14.1" piCv="49" piVal="14" siCv="50" siVal="1" iCv="53" value="138" />
+      <indexedCVvalue name="53.15.0" piCv="49" piVal="15" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.16.0" piCv="49" piVal="16" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.17.0" piCv="49" piVal="17" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.18.0" piCv="49" piVal="18" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.19.0" piCv="49" piVal="19" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.20.0" piCv="49" piVal="20" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.21.0" piCv="49" piVal="21" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.22.0" piCv="49" piVal="22" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.23.0" piCv="49" piVal="23" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.24.0" piCv="49" piVal="24" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.25.0" piCv="49" piVal="25" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.26.0" piCv="49" piVal="26" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.27.0" piCv="49" piVal="27" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.28.0" piCv="49" piVal="28" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.29.0" piCv="49" piVal="29" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="53.30.0" piCv="49" piVal="30" siCv="50" siVal="0" iCv="53" value="10" />
+      <indexedCVvalue name="55.3.0" piCv="49" piVal="3" siCv="50" siVal="0" iCv="55" value="2" />
+      <indexedCVvalue name="55.3.1" piCv="49" piVal="3" siCv="50" siVal="1" iCv="55" value="1" />
+      <indexedCVvalue name="55.3.5" piCv="49" piVal="3" siCv="50" siVal="5" iCv="55" value="5" />
+      <indexedCVvalue name="55.21.0" piCv="49" piVal="21" siCv="50" siVal="0" iCv="55" value="10" />
+      <indexedCVvalue name="55.70.0" piCv="49" piVal="70" siCv="50" siVal="0" iCv="55" value="1" />
+      <indexedCVvalue name="55.70.1" piCv="49" piVal="70" siCv="50" siVal="1" iCv="55" value="86" />
+      <indexedCVvalue name="55.73.0" piCv="49" piVal="73" siCv="50" siVal="0" iCv="55" value="1" />
+      <indexedCVvalue name="55.73.1" piCv="49" piVal="73" siCv="50" siVal="1" iCv="55" value="101" />
+      <indexedCVvalue name="55.76.0" piCv="49" piVal="76" siCv="50" siVal="0" iCv="55" value="1" />
+      <indexedCVvalue name="55.76.1" piCv="49" piVal="76" siCv="50" siVal="1" iCv="55" value="3" />
+      <indexedCVvalue name="55.76.2" piCv="49" piVal="76" siCv="50" siVal="2" iCv="55" value="1" />
+      <indexedCVvalue name="55.76.3" piCv="49" piVal="76" siCv="50" siVal="3" iCv="55" value="1" />
+      <indexedCVvalue name="55.76.4" piCv="49" piVal="76" siCv="50" siVal="4" iCv="55" value="1" />
+      <indexedCVvalue name="55.76.6" piCv="49" piVal="76" siCv="50" siVal="6" iCv="55" value="100" />
+      <indexedCVvalue name="55.76.10" piCv="49" piVal="76" siCv="50" siVal="10" iCv="55" value="32" />
+      <indexedCVvalue name="55.76.11" piCv="49" piVal="76" siCv="50" siVal="11" iCv="55" value="4" />
+      <indexedCVvalue name="55.76.12" piCv="49" piVal="76" siCv="50" siVal="12" iCv="55" value="255" />
+      <indexedCVvalue name="55.76.13" piCv="49" piVal="76" siCv="50" siVal="13" iCv="55" value="32" />
+      <indexedCVvalue name="55.100.0" piCv="49" piVal="100" siCv="50" siVal="0" iCv="55" value="1" />
+      <indexedCVvalue name="55.100.1" piCv="49" piVal="100" siCv="50" siVal="1" iCv="55" value="85" />
+      <indexedCVvalue name="55.136.0" piCv="49" piVal="136" siCv="50" siVal="0" iCv="55" value="255" />
+      <indexedCVvalue name="55.136.1" piCv="49" piVal="136" siCv="50" siVal="1" iCv="55" value="0" />
+      <indexedCVvalue name="55.136.2" piCv="49" piVal="136" siCv="50" siVal="2" iCv="55" value="0" />
+      <indexedCVvalue name="55.137.0" piCv="49" piVal="137" siCv="50" siVal="0" iCv="55" value="0" />
+      <indexedCVvalue name="55.137.1" piCv="49" piVal="137" siCv="50" siVal="1" iCv="55" value="255" />
+      <indexedCVvalue name="55.137.2" piCv="49" piVal="137" siCv="50" siVal="2" iCv="55" value="0" />
+      <indexedCVvalue name="55.138.0" piCv="49" piVal="138" siCv="50" siVal="0" iCv="55" value="0" />
+      <indexedCVvalue name="55.138.1" piCv="49" piVal="138" siCv="50" siVal="1" iCv="55" value="0" />
+      <indexedCVvalue name="55.138.2" piCv="49" piVal="138" siCv="50" siVal="2" iCv="55" value="255" />
+      <indexedCVvalue name="55.154.0" piCv="49" piVal="154" siCv="50" siVal="0" iCv="55" value="30" />
+      <indexedCVvalue name="55.154.1" piCv="49" piVal="154" siCv="50" siVal="1" iCv="55" value="15" />
+      <indexedCVvalue name="55.154.2" piCv="49" piVal="154" siCv="50" siVal="2" iCv="55" value="30" />
+      <indexedCVvalue name="55.154.3" piCv="49" piVal="154" siCv="50" siVal="3" iCv="55" value="15" />
+      <indexedCVvalue name="55.154.4" piCv="49" piVal="154" siCv="50" siVal="4" iCv="55" value="10" />
+      <indexedCVvalue name="55.154.5" piCv="49" piVal="154" siCv="50" siVal="5" iCv="55" value="15" />
+      <indexedCVvalue name="55.154.6" piCv="49" piVal="154" siCv="50" siVal="6" iCv="55" value="30" />
+      <indexedCVvalue name="55.178.0" piCv="49" piVal="178" siCv="50" siVal="0" iCv="55" value="1" />
+      <indexedCVvalue name="56.0" piCv="49" piVal="0" siCv="50" siVal="-1" iCv="56" value="0" />
+      <indexedCVvalue name="56.4" piCv="49" piVal="4" siCv="50" siVal="-1" iCv="56" value="1" />
+      <indexedCVvalue name="56.5" piCv="49" piVal="5" siCv="50" siVal="-1" iCv="56" value="2" />
+      <indexedCVvalue name="56.9" piCv="49" piVal="9" siCv="50" siVal="-1" iCv="56" value="128" />
+      <indexedCVvalue name="56.18.0" piCv="49" piVal="18" siCv="50" siVal="0" iCv="56" value="15" />
+      <indexedCVvalue name="56.18.2" piCv="49" piVal="18" siCv="50" siVal="2" iCv="56" value="106" />
+      <indexedCVvalue name="56.19.0" piCv="49" piVal="19" siCv="50" siVal="0" iCv="56" value="10" />
+      <indexedCVvalue name="56.19.2" piCv="49" piVal="19" siCv="50" siVal="2" iCv="56" value="35" />
+      <indexedCVvalue name="56.20.0" piCv="49" piVal="20" siCv="50" siVal="0" iCv="56" value="10" />
+      <indexedCVvalue name="56.20.2" piCv="49" piVal="20" siCv="50" siVal="2" iCv="56" value="35" />
+      <indexedCVvalue name="56.21.0" piCv="49" piVal="21" siCv="50" siVal="0" iCv="56" value="10" />
+      <indexedCVvalue name="56.21.2" piCv="49" piVal="21" siCv="50" siVal="2" iCv="56" value="35" />
+      <indexedCVvalue name="56.254.2" piCv="49" piVal="254" siCv="50" siVal="2" iCv="56" value="4" />
+      <indexedCVvalue name="56.254.3" piCv="49" piVal="254" siCv="50" siVal="3" iCv="56" value="87" />
+      <indexedCVvalue name="56.254.4" piCv="49" piVal="254" siCv="50" siVal="4" iCv="56" value="0" />
+      <indexedCVvalue name="56.254.5" piCv="49" piVal="254" siCv="50" siVal="5" iCv="56" value="107" />
+      <indexedCVvalue name="56.254.8" piCv="49" piVal="254" siCv="50" siVal="8" iCv="56" value="1" />
+      <indexedCVvalue name="56.254.10" piCv="49" piVal="254" siCv="50" siVal="10" iCv="56" value="5" />
+      <indexedCVvalue name="56.254.11" piCv="49" piVal="254" siCv="50" siVal="11" iCv="56" value="13" />
+      <indexedCVvalue name="56.254.12" piCv="49" piVal="254" siCv="50" siVal="12" iCv="56" value="7" />
+      <indexedCVvalue name="56.254.14" piCv="49" piVal="254" siCv="50" siVal="14" iCv="56" value="1" />
+      <indexedCVvalue name="56.255_0" piCv="49" piVal="255" siCv="50" siVal="-1" iCv="56" value="0" />
+      <indexedCVvalue name="56.255_1" piCv="49" piVal="255" siCv="50" siVal="-1" iCv="56" value="1" />
+      <indexedCVvalue name="56.255_2" piCv="49" piVal="255" siCv="50" siVal="-1" iCv="56" value="2" />
+      <indexedCVvalue name="56.255_3" piCv="49" piVal="255" siCv="50" siVal="-1" iCv="56" value="3" />
+      <indexedCVvalue name="56.255_4" piCv="49" piVal="255" siCv="50" siVal="-1" iCv="56" value="4" />
+    </values>
+  </locomotive>
+  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Jul 30 22:47:29 PDT 2021-->
+</locomotive-config>

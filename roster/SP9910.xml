@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 3.6-r24520 on Fri Jan 27 19:27:23 PST 2017 $Id: XmlFile.java 22821 2013-02-25 01:18:12Z rhwood $-->
+  <locomotive id="SP9910" fileName="SP9910.xml" roadNumber="0010" roadName="Southern Pacific" mfg="Rapido" owner="murf" model="Rail Diesel Car" dccAddress="9910" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>Jan 27, 2017 7:27:23 PM</dateUpdated>
+    <decoder model="LokPilot Basic 2.0" family="ESU LokPilot Basic 2.0" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="9910" longaddress="yes" />
+      <number>9910</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <values>
+      <decoderDef>
+        <varValue item="Short Address" value="3" />
+        <varValue item="Starting Voltage" value="3" />
+        <varValue item="Acceleration" value="8" />
+        <varValue item="Deceleration" value="6" />
+        <varValue item="Maximum Speed" value="63" />
+        <varValue item="Software Version Number" value="255" />
+        <varValue item="Manufacturer ID" value="151" />
+        <varValue item="Long Address" value="9910" />
+        <varValue item="Direction of Travel" value="0" />
+        <varValue item="Speed Steps" value="1" />
+        <varValue item="Analogue mode" value="1" />
+        <varValue item="Selection of address" value="1" />
+        <varValue item="BEMF control" value="1" />
+        <varValue item="Brake mode control" value="1" />
+        <varValue item="Load control parameter K" value="32" />
+        <varValue item="Load control parameter I" value="24" />
+        <varValue item="Lamp brightness" value="7" />
+      </decoderDef>
+      <CVvalue name="1" value="3" />
+      <CVvalue name="2" value="3" />
+      <CVvalue name="3" value="8" />
+      <CVvalue name="4" value="6" />
+      <CVvalue name="5" value="63" />
+      <CVvalue name="7" value="255" />
+      <CVvalue name="8" value="151" />
+      <CVvalue name="17" value="230" />
+      <CVvalue name="18" value="182" />
+      <CVvalue name="29" value="46" />
+      <CVvalue name="49" value="1" />
+      <CVvalue name="51" value="1" />
+      <CVvalue name="54" value="32" />
+      <CVvalue name="55" value="24" />
+      <CVvalue name="63" value="7" />
+    </values>
+  </locomotive>
+  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Jul 30 19:02:20 PDT 2021-->
+  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Jul 30 22:47:39 PDT 2021-->
+</locomotive-config>

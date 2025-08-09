@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/consistRoster.xsl" type="text/xsl"?>
+<!DOCTYPE consist-roster-config SYSTEM "/xml/DTD/consist-roster-config.dtd">
+<consist-roster-config>
+  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Thu Aug 07 13:32:23 PDT 2025-->
+  <roster>
+    <consist id="127(S)" consistNumber="127" longAddress="no" type="DAC">
+      <loco dccLocoAddress="9294" longAddress="yes" locoDir="normal" locoName="lead" />
+      <loco dccLocoAddress="9255" longAddress="yes" locoDir="normal" locoName="rear" />
+    </consist>
+  </roster>
+</consist-roster-config>

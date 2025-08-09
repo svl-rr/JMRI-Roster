@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 3.6-r24520 on Sun Nov 13 15:29:15 PST 2016 $Id: XmlFile.java 22821 2013-02-25 01:18:12Z rhwood $-->
+  <locomotive id="MTH #3" fileName="MTH__3.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="1982" comment="dummy entry " maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>Nov 13, 2016 3:29:15 PM</dateUpdated>
+    <decoder model="MTH HO PS3" family="MTH HO PS3" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="1982" longaddress="yes" />
+      <number>1982</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <values>
+      <decoderDef>
+        <varValue item="Short Address" value="3" />
+        <varValue item="Acceleration Rate" value="0" />
+        <varValue item="Deceleration Rate" value="0" />
+        <varValue item="Extended Address" value="1982" />
+        <varValue item="Speed steps" value="1" />
+        <varValue item="Addressing Mode" value="1" />
+        <varValue item="Short Address Alt Access" value="3" />
+        <varValue item="Extended Address Alt Access" value="0" />
+      </decoderDef>
+      <CVvalue name="1" value="3" />
+      <CVvalue name="3" value="0" />
+      <CVvalue name="4" value="0" />
+      <CVvalue name="17" value="199" />
+      <CVvalue name="18" value="190" />
+      <CVvalue name="29" value="34" />
+      <CVvalue name="49" value="3" />
+      <CVvalue name="50" value="0" />
+      <CVvalue name="51" value="0" />
+    </values>
+  </locomotive>
+  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Jul 30 19:02:06 PDT 2021-->
+  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Jul 30 22:47:35 PDT 2021-->
+</locomotive-config>
